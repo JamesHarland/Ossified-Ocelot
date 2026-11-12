@@ -1,0 +1,232 @@
+% Regression (uni) 1015:(10)^{2}(211)^{3}{b}212{r}0(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4} -> +7:(10)^{2}(211)^{2}{b}212{r}0100(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4} -> +7:(10)^{2}211{b}212{r}(010)^{2}0(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4}
+% otter 1 proof attempt 1 ([]): (10)^{2}(211)^{Y1}{b}212{r}(010)^{X1}0(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4} -->> (10)^{2}(211)^{Y1-1}{b}212{r}(010)^{X1+1}0(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4} Progressors: 1, Regressors: 1
+(10)^{2}(211)^{Y1}{b}212{r}(010)^{X1}0(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4} % Hops: 0 Ones: 30 Pos: 0 Transition: init 
+(10)^{2}{b}(211)^{Y1}{r}110(010)^{X1}0(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4} % Hops: 5 Ones: 29 Pos: -3 Transition: complex(acceleration) 
+(10)^{2}(211)^{Y1-1}212{c}110{l}(010)^{X1}0(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4} % Hops: 6 Ones: 32 Pos: -2 Transition: complex(normal) 
+(10)^{2}(211)^{Y1-1}{b}212{r}(010)^{X1+1}0(1)^{2}0303(1)^{2}(030310303)^{3}(03)^{4} % Hops: 7 Ones: 30 Pos: -3 Transition: complex(normal) 
+% otter 1 verified (attempt 1) in 3 steps
+% Otter transition is Otter 1 (uni): (211)^{Y1}{b}212{r}(010)^{X1} ++> {b}212{r}(010)^{X1+Y1} Found: 1015 Diffs: diffs([m(1,-1),m(1,0)],m(1,0),[m(1,1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 7*Y1 steps movement -3*Y1 Trans: [t(b,1,2,r,c),t(b,2,1,l,b),t(c,1,0,l,b)]
+% Otter found -- checking whether to apply it at 1029 ... 
+% Otter applied to get to 1036
+% Regression (uni) 1266:(10)^{2}21(121)^{4}{b}122{r}(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4} -> +7:(10)^{2}21(121)^{3}{b}122{r}001(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4} -> +7:(10)^{2}21(121)^{2}{b}122{r}(001)^{2}(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4}
+% otter 2 proof attempt 1 ([]): (10)^{2}21(121)^{Y1}{b}122{r}(001)^{X1}(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4} -->> (10)^{2}21(121)^{Y1-1}{b}122{r}(001)^{X1+1}(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4} Progressors: 1, Regressors: 1
+(10)^{2}21(121)^{Y1}{b}122{r}(001)^{X1}(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4} % Hops: 0 Ones: 28 Pos: 0 Transition: init 
+(10)^{2}21{b}(121)^{Y1}{r}101(001)^{X1}(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4} % Hops: 5 Ones: 27 Pos: -3 Transition: complex(acceleration) 
+(10)^{2}21(121)^{Y1-1}122{c}101{l}(001)^{X1}(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4} % Hops: 6 Ones: 30 Pos: -2 Transition: complex(normal) 
+(10)^{2}21(121)^{Y1-1}{b}122{r}(001)^{X1+1}(0)^{3}30301(0)^{3}30300303(030310303)^{2}(03)^{4} % Hops: 7 Ones: 28 Pos: -3 Transition: complex(normal) 
+% otter 2 verified (attempt 1) in 3 steps
+% Otter transition is Otter 2 (uni): (121)^{Y1}{b}122{r}(001)^{X1} ++> {b}122{r}(001)^{X1+Y1} Found: 1266 Diffs: diffs([m(1,-1),m(1,0),m(1,0),m(1,0)],m(1,0),[m(1,1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 7*Y1 steps movement -3*Y1 Trans: [t(b,1,2,r,c),t(b,2,1,l,b),t(c,1,0,l,b)]
+% Otter found -- checking whether to apply it at 1280 ... 
+% Otter applied to get to 1294
+% Regression (uni) 1668:(10)^{2}(211)^{7}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}1011010100102211(01)^{3}02{c}(03)^{7}{l} -> +4:(10)^{2}(211)^{7}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}1011010100102211(01)^{3}02(10)^{2}{c}(03)^{5}{l} -> +4:(10)^{2}(211)^{7}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}1011010100102211(01)^{3}02(10)^{4}{c}(03)^{3}{l}
+% otter 3 proof attempt 1 ([]): (10)^{2}(211)^{7}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}1011010100102211(01)^{3}02(10)^{X1}{c}(03)^{Y1}{l} -->> (10)^{2}(211)^{7}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}1011010100102211(01)^{3}02(10)^{X1+2}{c}(03)^{Y1-2}{l} Progressors: 1, Regressors: 1
+(10)^{2}(211)^{7}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}1011010100102211(01)^{3}02(10)^{X1}{c}(03)^{Y1}{l} % Hops: 0 Ones: 44 Pos: 0 Transition: init 
+(10)^{2}(211)^{7}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}1011010100102211(01)^{3}02(10)^{X1+1}{a}(03)^{Y1-1}{l} % Hops: 2 Ones: 44 Pos: 2 Transition: complex(normal) 
+(10)^{2}(211)^{7}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}1011010100102211(01)^{3}02(10)^{X1+2}{c}(03)^{Y1-2}{l} % Hops: 4 Ones: 44 Pos: 4 Transition: complex(normal) 
+% otter 3 verified (attempt 1) in 2 steps
+% Otter transition is Otter 3 (uni): (10)^{X1}{c}(03)^{Y1}{l} ++> (10)^{X1+(Y1-Y1 mod 2)}{c}(03)^{Y1-(Y1-Y1 mod 2)}{l} Found: 1668 Diffs: diffs([m(1,2),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,-2),[]) Mins Xs: [0] Ys: [2] Mods [] in 2*(Y1-Y1 mod 2) steps movement 4*(Y1//2) Trans: [t(a,0,1,r,b),t(a,3,0,r,a),t(b,3,0,r,c),t(c,0,1,r,a)]
+% Otter found -- checking whether to apply it at 1676 ... 
+% Otter applied to get to 1680
+% Regression (uni) 3809:(10)^{2}(211)^{13}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}101(10)^{3}{a}(30)^{6}{l}3(30)^{3}31(03)^{10} -> +4:(10)^{2}(211)^{13}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}101(10)^{3}(01)^{2}{a}(30)^{4}{l}3(30)^{3}31(03)^{10} -> +4:(10)^{2}(211)^{13}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}101(10)^{3}(01)^{4}{a}(30)^{2}{l}3(30)^{3}31(03)^{10}
+% otter 4 proof attempt 1 ([]): (10)^{2}(211)^{13}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}101(10)^{3}(01)^{X1}{a}(30)^{Y1}{l}3(30)^{3}31(03)^{10} -->> (10)^{2}(211)^{13}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}101(10)^{3}(01)^{X1+2}{a}(30)^{Y1-2}{l}3(30)^{3}31(03)^{10} Progressors: 1, Regressors: 1
+(10)^{2}(211)^{13}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}101(10)^{3}(01)^{X1}{a}(30)^{Y1}{l}3(30)^{3}31(03)^{10} % Hops: 0 Ones: 69 Pos: 0 Transition: init 
+(10)^{2}(211)^{13}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}101(10)^{3}(01)^{X1+1}{b}(30)^{Y1-1}{l}3(30)^{3}31(03)^{10} % Hops: 2 Ones: 69 Pos: 2 Transition: complex(normal) 
+(10)^{2}(211)^{13}(2)^{2}(10)^{2}(2)^{2}1(0)^{2}101(10)^{3}(01)^{X1+2}{a}(30)^{Y1-2}{l}3(30)^{3}31(03)^{10} % Hops: 4 Ones: 69 Pos: 4 Transition: complex(normal) 
+% otter 4 verified (attempt 1) in 2 steps
+% Otter transition is Otter 4 (uni): (01)^{X1}{a}(30)^{Y1}{l} ++> (01)^{X1+(Y1-Y1 mod 2)}{a}(30)^{Y1-(Y1-Y1 mod 2)}{l} Found: 3809 Diffs: diffs([m(1,2),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,-2),[m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [2] Mods [] in 2*(Y1-Y1 mod 2) steps movement 4*(Y1//2) Trans: [t(a,0,1,r,b),t(a,3,0,r,a),t(b,3,0,r,c),t(c,0,1,r,a)]
+% Otter found -- checking whether to apply it at 3817 ... 
+% Otter applied to get to 3821
+% halts: Final configuration is (10)^{2}2(112)^{4735}2(10)^{2}(2)^{2}10(01)^{2}(10)^{3}(01)^{2376}1(01)^{677}02(10)^{3}(01)^{7}021(01)^{3}02(112)^{2}(10)^{9}{z}(30)^{2}{l}(0)^{2}30(3)^{2}(03)^{9}0(03)^{4} Ones: 17323 Hops: 262759288 Steps: 526478
+% Otters: 4 Multilinear: 0 Unique Otters: 4 Otters Nested: 0 Otter Steps: 73 Otter Jumps: 73 Otter Proofs: [o(1,4),o(2,4),o(3,3),o(4,3)] Otter Diffs: [o(1,d(7,7)),o(2,d(7,7)),o(3,d(4,4)),o(4,d(4,4))] Flat: 4  Ocelots: 49001 Ocelot Steps: 123590123 Ocelot Proofs: 0 Shape: (10)^{2}2(112)*2(10)^{2}(2)^{2}10(01)^{2}(10)^{3}(01)*1(01)*02(10)^{3}(01)*021(01)^{3}02(112)^{2}(10)*{z}(30)^{2}{l}(0)^{2}30(3)^{2}(03)*0(03)* Shape Size: 121  MaxProgs: 1 MaxRegs: 1 
+Applications Otter 1 times: 3335, steps: 52293752
+Applications Otter 2 times: 3167, steps: 52286192
+Applications Otter 3 times: 14803, steps: 2086512
+Applications Otter 4 times: 27696, steps: 16923740
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> c 3 l Steps: 1
+% Trans: c 1 r -> b 0 l Steps: 1
+% Trans: b 0 r -> c 3 l Steps: 1
+% Trans: c 0 r -> a 1 r Steps: 1
+% Trans: a 3 l -> a 0 r Steps: 1
+% Trans: b 3 l -> c 0 r Steps: 1
+% Trans: c 0 l -> a 1 r Steps: 1
+% Trans: b 1 r -> c 2 r Steps: 1
+% Trans: b 2 r -> b 1 l Steps: 1
+% Trans: a 1 l -> c 2 l Steps: 1
+% Trans: c 10 r -> a 11 r Steps: 1
+% Trans: a 2 l -> c 0 l Steps: 1
+% Trans: c 1 l -> b 0 l Steps: 1
+% Trans: c 03 l -> a 10 r Steps: 2
+% Trans: a 03 l -> c 10 r Steps: 2
+% Trans: c 01 r -> c 30 l Steps: 2
+% Trans: b 10 r -> b 03 l Steps: 2
+% Trans: b 1 l -> c 2 r Steps: 1
+% Trans: b 03 l -> c 33 l Steps: 1
+% Trans: b 01 r -> c 02 r Steps: 1
+% Trans: b 02 r -> c 31 l Steps: 2
+% Trans: a 30 l -> b 01 r Steps: 2
+% Trans: b 30 l -> a 01 r Steps: 2
+% Trans: b 31 l -> c 30 l Steps: 3
+% Trans: c 211 r -> a 221 r Steps: 3
+% Trans: b 221 r -> c 222 r Steps: 1
+% Trans: b 211 r -> c 212 r Steps: 1
+% Trans: b 212 r -> b 110 l Steps: 5
+% Trans: c 110 l -> b 010 l Steps: 1
+% Trans: a 110 l -> c 210 l Steps: 1
+% Trans: a 210 l -> c 010 l Steps: 1
+% Trans: c 001 l -> c 112 r Steps: 3
+% Trans: b 112 r -> b 100 l Steps: 7
+% Trans: c 121 r -> b 100 l Steps: 5
+% Trans: b 121 r -> c 122 r Steps: 1
+% Trans: c 100 l -> b 000 l Steps: 1
+% Trans: b 122 r -> b 101 l Steps: 5
+% Trans: c 101 l -> b 001 l Steps: 1
+% Trans: c 30 l -> a 10 r Steps: 4
+% Trans: c 030300303 l -> a 101011010 r Steps: 9
+% Trans: a 030300303 l -> b 030303303 l Steps: 11
+% Trans: b 101011010 r -> c 101021010 r Steps: 9
+% Trans: b 10102 r -> b 03031 l Steps: 5
+% Trans: b 101021010 r -> b 030310303 l Steps: 9
+% Trans: c 030310303 l -> b 030300303 l Steps: 9
+% Trans: c 30300303 l -> a 11010100 r Steps: 18
+% Trans: a 030310303 l -> c 102210010 r Steps: 19
+% Trans: b 102210010 r -> c 102211010 r Steps: 7
+% Trans: c 102211 r -> a 102221 r Steps: 3
+% Trans: c 102221 r -> b 031110 l Steps: 6
+% Trans: b 11010100 r -> a 11010110 r Steps: 3
+% Trans: a 031110 l -> b 030110 l Steps: 5
+% Trans: b 11010110 r -> a 11010210 r Steps: 5
+% Trans: a 030110 l -> b 030210 l Steps: 7
+% Trans: b 11010210 r -> b 10303003 l Steps: 18
+% Trans: c 10303003 l -> b 00303003 l Steps: 1
+% Trans: c 03030 l -> a 10101 r Steps: 5
+% Trans: a 03030 l -> b 10101 r Steps: 5
+% Trans: b 03030 l -> c 33030 l Steps: 1
+% Trans: c 10101 r -> b 03030 l Steps: 5
+% Trans: b 10101 r -> c 10102 r Steps: 1
+% Trans: a 010 l -> a 121 r Steps: 3
+% Trans: b 10303 l -> c 21010 r Steps: 5
+% Trans: c 10303 l -> b 00303 l Steps: 1
+% Trans: b 21010 r -> b 10303 l Steps: 5
+% Trans: c 303 l -> a 100 r Steps: 5
+% Trans: a 00303 l -> b 03303 l Steps: 3
+% Trans: b 100 r -> a 110 r Steps: 3
+% Trans: a 03303 l -> a 10100 r Steps: 7
+% Trans: a 10303 l -> c 20303 l Steps: 1
+% Trans: c 10100 r -> a 10101 r Steps: 1
+% Trans: a 20303 l -> c 00303 l Steps: 1
+% Trans: c 3 l -> b 0 r Steps: 1
+% Trans: b 100 l -> b 211 r Steps: 3
+% Trans: a 100 l -> c 200 l Steps: 1
+% Trans: a 200 l -> c 000 l Steps: 1
+% Trans: c 221 r -> b 110 l Steps: 3
+% Trans: c 010 l -> b 020 l Steps: 3
+% Trans: c 020 l -> b 000 l Steps: 3
+% Trans: b 01 l -> c 31 l Steps: 1
+% Trans: b 2 l -> b 1 l Steps: 1
+% Trans: a 10 l -> c 20 l Steps: 1
+% Trans: a 20 l -> c 00 l Steps: 1
+% Trans: b 10 l -> a 21 r Steps: 2
+% Trans: a 31 l -> b 00 l Steps: 5
+% Trans: a 001 l -> b 031 l Steps: 3
+% Trans: c 031 l -> b 211 r Steps: 9
+% Trans: b 001 l -> c 301 l Steps: 1
+% Trans: a 301 l -> c 012 r Steps: 3
+% Trans: b 012 r -> c 310 l Steps: 5
+% Trans: b 010 l -> c 310 l Steps: 1
+% Trans: a 310 l -> b 000 l Steps: 5
+% Trans: c 21 r -> b 10 l Steps: 2
+% Trans: c 10 l -> b 00 l Steps: 1
+% Trans: c 033 l -> a 100 r Steps: 3
+% Trans: a 033 l -> b 100 r Steps: 3
+% Trans: b 033 l -> c 333 l Steps: 1
+% Trans: c 100 r -> a 101 r Steps: 1
+% Trans: a 01 l -> c 12 r Steps: 2
+% Trans: b 110 l -> b 100 l Steps: 3
+% Trans: b 310 l -> c 300 l Steps: 3
+% Trans: a 300 l -> c 303 l Steps: 5
+% Trans: a 303 l -> c 010 r Steps: 3
+% Trans: b 200 l -> b 100 l Steps: 1
+% Trans: b 300 l -> b 011 r Steps: 3
+% Trans: c 00303 l -> a 11010 r Steps: 5
+% Trans: c 11010 r -> a 11011 r Steps: 1
+% Trans: c 11011 r -> a 11021 r Steps: 3
+% Trans: b 11021 r -> c 11022 r Steps: 1
+% Trans: c 03303 l -> c 10010 r Steps: 5
+% Trans: b 110 r -> a 210 r Steps: 5
+% Trans: c 210 r -> a 211 r Steps: 1
+% Trans: c 31 l -> c 02 r Steps: 2
+% Trans: b 12 r -> b 10 l Steps: 4
+% Trans: c 011 r -> a 021 r Steps: 3
+% Trans: c 021 r -> c 310 l Steps: 3
+% Trans: c 010101011 r -> a 010101021 r Steps: 3
+% Trans: c 010101021 r -> c 303030310 l Steps: 9
+% Trans: b 310303030 l -> c 300303030 l Steps: 3
+% Trans: a 10303030 l -> c 20303030 l Steps: 1
+% Trans: a 20303030 l -> c 00303030 l Steps: 1
+% Trans: c 10303030 l -> b 00303030 l Steps: 1
+% Trans: b 301 l -> c 302 l Steps: 5
+% Trans: b 302 l -> c 300 l Steps: 5
+% Trans: a 101 l -> c 201 l Steps: 1
+% Trans: a 201 l -> c 001 l Steps: 1
+% Trans: a 020 l -> b 100 l Steps: 5
+% Trans: c 101 r -> b 030 l Steps: 3
+% Trans: c 030 l -> b 101 r Steps: 3
+% Trans: b 03031 l -> c 33031 l Steps: 1
+% Trans: a 33031 l -> a 10101 r Steps: 13
+% Trans: a 03031 l -> b 10211 r Steps: 11
+% Trans: c 10211 r -> a 10221 r Steps: 3
+% Trans: b 10221 r -> c 10222 r Steps: 1
+% Trans: b 20 l -> b 10 l Steps: 1
+% Trans: a 0030303030303 l -> b 0330303030303 l Steps: 3
+% Trans: c 0330303030303 l -> c 1001010101010 r Steps: 13
+% Trans: c 0030303030303 l -> a 1101010101010 r Steps: 13
+% Trans: a 30303030303 l -> c 01010101010 r Steps: 11
+% Trans: c 0101010101021 r -> c 3030303030310 l Steps: 13
+% Trans: b 21 r -> c 22 r Steps: 1
+% Trans: b 011 r -> c 012 r Steps: 1
+% Trans: b 210 l -> b 110 l Steps: 1
+% Trans: c 310 l -> a 021 r Steps: 3
+% Trans: a 031 l -> b 030 l Steps: 5
+% Trans: a 030 l -> a 101 r Steps: 3
+% Trans: b 01021 r -> c 01022 r Steps: 1
+% Trans: b 010 r -> c 303 l Steps: 3
+% Trans: c 01021 r -> c 30310 l Steps: 5
+% Trans: b 303 l -> a 010 r Steps: 3
+% Trans: b 31030 l -> c 30030 l Steps: 3
+% Trans: b 10222 r -> b 03111 l Steps: 5
+% Trans: c 03111 l -> b 11000 l Steps: 19
+% Trans: a 11000 l -> c 21000 l Steps: 1
+% Trans: b 21000 l -> b 11000 l Steps: 1
+% Trans: c 11000 l -> b 01000 l Steps: 1
+% Trans: b 01000 l -> c 31000 l Steps: 1
+% Trans: a 31000 l -> b 00000 l Steps: 5
+% Trans: a 103030303 l -> c 203030303 l Steps: 1
+% Trans: a 203030303 l -> c 003030303 l Steps: 1
+% Trans: c 103030303 l -> b 003030303 l Steps: 1
+% Trans: b 021 r -> c 022 r Steps: 1
+% Trans: c 110 r -> a 111 r Steps: 1
+% Trans: b 11010 r -> c 21010 r Steps: 9
+% Trans: b 10010 r -> c 11010 r Steps: 7
+% Trans: b 030310303 l -> c 330310303 l Steps: 1
+% Trans: a 330310303 l -> a 101011010 r Steps: 17
+% Trans: b 1022100 r -> a 1022110 r Steps: 3
+% Trans: b 003030303 l -> c 303030303 l Steps: 1
+% Trans: b 103030303 l -> c 210101010 r Steps: 9
+% Trans: c 003030303 l -> a 110101010 r Steps: 9
+% Trans: c 03031 l -> b 03030 l Steps: 9
+% Trans: c 11021 r -> a 22210 r Steps: 19
+% Trans: c 22210 r -> a 22211 r Steps: 1
+% Trans: c 22211 r -> a 22221 r Steps: 3
+% Trans: c 22221 r -> b 11110 l Steps: 5
+% Trans: a 302 l -> c 310 l Steps: 7
+% Trans: c 20 l -> z 10 r Steps: 1
+% No more transitions
+
+Otter 1 (uni): (211)^{Y1}{b}212{r}(010)^{X1} ++> {b}212{r}(010)^{X1+Y1} Found: 1015 Diffs: diffs([m(1,-1),m(1,0)],m(1,0),[m(1,1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 7*Y1 steps movement -3*Y1 Trans: [t(b,1,2,r,c),t(b,2,1,l,b),t(c,1,0,l,b)]
+Otter 2 (uni): (121)^{Y1}{b}122{r}(001)^{X1} ++> {b}122{r}(001)^{X1+Y1} Found: 1266 Diffs: diffs([m(1,-1),m(1,0),m(1,0),m(1,0)],m(1,0),[m(1,1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 7*Y1 steps movement -3*Y1 Trans: [t(b,1,2,r,c),t(b,2,1,l,b),t(c,1,0,l,b)]
+Otter 3 (uni): (10)^{X1}{c}(03)^{Y1}{l} ++> (10)^{X1+(Y1-Y1 mod 2)}{c}(03)^{Y1-(Y1-Y1 mod 2)}{l} Found: 1668 Diffs: diffs([m(1,2),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,-2),[]) Mins Xs: [0] Ys: [2] Mods [] in 2*(Y1-Y1 mod 2) steps movement 4*(Y1//2) Trans: [t(a,0,1,r,b),t(a,3,0,r,a),t(b,3,0,r,c),t(c,0,1,r,a)]
+Otter 4 (uni): (01)^{X1}{a}(30)^{Y1}{l} ++> (01)^{X1+(Y1-Y1 mod 2)}{a}(30)^{Y1-(Y1-Y1 mod 2)}{l} Found: 3809 Diffs: diffs([m(1,2),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,-2),[m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [2] Mods [] in 2*(Y1-Y1 mod 2) steps movement 4*(Y1//2) Trans: [t(a,0,1,r,b),t(a,3,0,r,a),t(b,3,0,r,c),t(c,0,1,r,a)]
+
+First otter detected starting at 1015
+took 6157.42 seconds

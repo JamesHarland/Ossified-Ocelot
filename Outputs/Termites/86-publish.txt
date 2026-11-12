@@ -1,0 +1,182 @@
+% Regression (uni) 981:1012(02)^{13}(10)^{4}{a}0{l} -> +54:1012(02)^{11}(10)^{7}{a}0{l} -> +78:1012(02)^{9}(10)^{10}{a}0{l}
+% otter 1 proof attempt 1 ([]): 1012(02)^{Y1}(10)^{X1}{a}0{l} -->> 1012(02)^{Y1-2}(10)^{X1+3}{a}0{l} Progressors: 1, Regressors: 1
+1012(02)^{Y1}(10)^{X1}{a}0{l} % Hops: 0 Ones: 3 Pos: 0 Transition: init 
+1012(02)^{Y1}(10)^{X1}1{b}0{l} % Hops: 1 Ones: 4 Pos: 1 Transition: complex(normal) 
+1012(02)^{Y1}(10)^{X1}{c}1{r}2 % Hops: 2 Ones: 5 Pos: 0 Transition: complex(normal) 
+1012(02)^{Y1}{b}(10)^{X1}{r}02 % Hops: 3 Ones: 4 Pos: -1 Transition: complex(normal) 
+1012{b}(02)^{Y1}{r}(02)^{X1+1} % Hops: 2*X1+3 Ones: 3 Pos: -2*X1-1 Transition: complex(acceleration) 
+1012{c}(02)^{Y1-1}{r}21(02)^{X1+1} % Hops: 2*X1+5 Ones: 5 Pos: -2*X1-3 Transition: complex(normal) 
+1012(02)^{Y1-2}(0)^{2}{d}21{l}(02)^{X1+1} % Hops: 2*X1+6 Ones: 5 Pos: -2*X1-2 Transition: complex(normal) 
+1012(02)^{Y1-2}{c}(0)^{2}{r}01(02)^{X1+1} % Hops: 2*X1+7 Ones: 4 Pos: -2*X1-3 Transition: complex(normal) 
+1012(02)^{Y1-2}{a}0{r}201(02)^{X1+1} % Hops: 2*X1+8 Ones: 5 Pos: -2*X1-4 Transition: complex(normal) 
+1012(02)^{Y1-2}1{b}2{l}01(02)^{X1+1} % Hops: 2*X1+9 Ones: 6 Pos: -2*X1-3 Transition: complex(normal) 
+1012(02)^{Y1-2}{b}1{r}101(02)^{X1+1} % Hops: 2*X1+10 Ones: 6 Pos: -2*X1-4 Transition: complex(normal) 
+1012(02)^{Y1-2}0{a}1{l}01(02)^{X1+1} % Hops: 2*X1+11 Ones: 5 Pos: -2*X1-3 Transition: complex(normal) 
+1012(02)^{Y1-2}{a}0{r}101(02)^{X1+1} % Hops: 2*X1+12 Ones: 5 Pos: -2*X1-4 Transition: complex(normal) 
+1012(02)^{Y1-2}1{b}1{l}01(02)^{X1+1} % Hops: 2*X1+13 Ones: 6 Pos: -2*X1-3 Transition: complex(normal) 
+1012(02)^{Y1-2}10{a}01{l}(02)^{X1+1} % Hops: 2*X1+14 Ones: 5 Pos: -2*X1-2 Transition: complex(normal) 
+1012(02)^{Y1-2}1010{a}(02)^{X1+1}{l} % Hops: 2*X1+16 Ones: 5 Pos: -2*X1 Transition: complex(acceleration) 
+1012(02)^{Y1-2}(10)^{X1+3}{a}0{l} % Hops: 8*X1+22 Ones: 3 Pos: 2 Transition: complex(acceleration) 
+% otter 1 verified (attempt 1) in 16 steps
+% Otter transition is Otter 1 (uni): (02)^{Y1}(10)^{X1}{a}0{l}(blank) ++> (02)^{Y1 mod 2}(10)^{X1+3*(Y1//2)}{a}0{l} Found: 981 Diffs: diffs([m(1,3),m(1,-2),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,0),[]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(8*X1+6*(Y1-Y1 mod 2)+10) steps movement 2*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(b,0,2,l,c),t(b,1,0,r,a),t(b,2,1,l,b),t(c,0,2,l,a),t(c,1,0,l,b),t(c,2,0,r,d),t(d,2,0,l,c)]
+% Otter found -- checking whether to apply it to config([grp([1,0],4),grp([0,2],13),grp([2],1),grp([1],1),grp([0],1),grp([1],1)],a,grp([0],1),l,[]) at 1113 ... 
+% Otter applied to get to 1665
+% Regression (uni) 3659:101(20)^{33}2(10)^{4}{a}0{l} -> +54:101(20)^{31}2(10)^{7}{a}0{l} -> +78:101(20)^{29}2(10)^{10}{a}0{l}
+% otter 2 proof attempt 1 ([]): 101(20)^{Y1}2(10)^{X1}{a}0{l} -->> 101(20)^{Y1-2}2(10)^{X1+3}{a}0{l} Progressors: 1, Regressors: 1
+101(20)^{Y1}2(10)^{X1}{a}0{l} % Hops: 0 Ones: 3 Pos: 0 Transition: init 
+101(20)^{Y1}2(10)^{X1}1{b}0{l} % Hops: 1 Ones: 4 Pos: 1 Transition: complex(normal) 
+101(20)^{Y1}2(10)^{X1}{c}1{r}2 % Hops: 2 Ones: 5 Pos: 0 Transition: complex(normal) 
+101(20)^{Y1}2{b}(10)^{X1}{r}02 % Hops: 3 Ones: 4 Pos: -1 Transition: complex(normal) 
+101(20)^{Y1}{b}2{r}(02)^{X1+1} % Hops: 2*X1+3 Ones: 3 Pos: -2*X1-1 Transition: complex(acceleration) 
+101{b}(20)^{Y1}{r}1(02)^{X1+1} % Hops: 2*X1+4 Ones: 3 Pos: -2*X1-2 Transition: complex(acceleration) 
+101{a}(20)^{Y1-1}{r}201(02)^{X1+1} % Hops: 2*X1+8 Ones: 4 Pos: -2*X1-4 Transition: complex(normal) 
+101(20)^{Y1-2}21{b}20{l}1(02)^{X1+1} % Hops: 2*X1+9 Ones: 6 Pos: -2*X1-3 Transition: complex(normal) 
+101(20)^{Y1-2}{b}21{r}101(02)^{X1+1} % Hops: 2*X1+10 Ones: 6 Pos: -2*X1-4 Transition: complex(normal) 
+101(20)^{Y1-1}{a}10{l}1(02)^{X1+1} % Hops: 2*X1+11 Ones: 4 Pos: -2*X1-3 Transition: complex(normal) 
+101{a}(20)^{Y1-1}{r}101(02)^{X1+1} % Hops: 2*X1+12 Ones: 4 Pos: -2*X1-4 Transition: complex(normal) 
+101(20)^{Y1-2}21{b}10{l}1(02)^{X1+1} % Hops: 2*X1+13 Ones: 6 Pos: -2*X1-3 Transition: complex(normal) 
+101(20)^{Y1-2}2101{b}1{l}(02)^{X1+1} % Hops: 2*X1+15 Ones: 6 Pos: -2*X1-1 Transition: complex(acceleration) 
+101(20)^{Y1-2}21010{a}(02)^{X1+1}{l} % Hops: 2*X1+16 Ones: 5 Pos: -2*X1 Transition: complex(normal) 
+101(20)^{Y1-2}2(10)^{X1+3}{a}0{l} % Hops: 8*X1+22 Ones: 3 Pos: 2 Transition: complex(acceleration) 
+% otter 2 verified (attempt 1) in 14 steps
+% Otter transition is Otter 2 (uni): (20)^{Y1}2(10)^{X1}{a}0{l}(blank) ++> (20)^{Y1 mod 2}2(10)^{X1+3*(Y1//2)}{a}0{l} Found: 3659 Diffs: diffs([m(1,3),m(1,0),m(1,-2),m(1,0),m(1,0),m(1,0)],m(1,0),[]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(8*X1+6*(Y1-Y1 mod 2)+10) steps movement 2*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(b,0,2,l,c),t(b,1,0,r,a),t(b,2,1,l,b),t(c,0,2,l,a),t(c,1,0,l,b),t(c,2,0,r,d),t(d,2,0,l,c)]
+% Otter found -- checking whether to apply it to config([grp([1,0],4),grp([2],1),grp([2,0],33),grp([1],1),grp([0],1),grp([1],1)],a,grp([0],1),l,[]) at 3791 ... 
+% Otter applied to get to 7403
+% Regression (uni) {673 digits}:(10)^{2}{b}(01)^{5}{r}02(0)^{3}(20)^{5}(02)^{digits(337)} -> +22:(10)^{2}{b}(01)^{3}{r}02(0)^{3}(20)^{7}(02)^{digits(337)} -> +22:(10)^{2}{b}01{r}02(0)^{3}(20)^{9}(02)^{digits(337)}
+% otter 3 proof attempt 1 ([]): (10)^{2}{b}(01)^{Y1}{r}02(0)^{3}(20)^{X1}(02)^{digits(337)} -->> (10)^{2}{b}(01)^{Y1-2}{r}02(0)^{3}(20)^{X1+2}(02)^{digits(337)} Progressors: 1, Regressors: 1
+(10)^{2}{b}(01)^{Y1}{r}02(0)^{3}(20)^{X1}(02)^{digits(337)} % Hops: 0 Ones: {337 digits} Pos: 0 Transition: init 
+(10)^{2}(01)^{Y1-1}(0)^{2}{a}02{l}(0)^{3}(20)^{X1}(02)^{digits(337)} % Hops: 1 Ones: {337 digits} Pos: 1 Transition: complex(normal) 
+(10)^{2}(01)^{Y1-1}(0)^{2}10{a}(0)^{3}{l}(20)^{X1}(02)^{digits(337)} % Hops: 7 Ones: {337 digits} Pos: 3 Transition: complex(acceleration) 
+(10)^{2}(01)^{Y1-1}0(01)^{2}{b}(0)^{2}{l}(20)^{X1}(02)^{digits(337)} % Hops: 8 Ones: {337 digits} Pos: 4 Transition: complex(normal) 
+(10)^{2}(01)^{Y1-1}0{c}(01)^{2}{r}(20)^{X1+1}(02)^{digits(337)} % Hops: 9 Ones: {337 digits} Pos: 3 Transition: complex(normal) 
+(10)^{2}(01)^{Y1-1}{c}0{r}(20)^{X1+3}(02)^{digits(337)} % Hops: 13 Ones: {337 digits} Pos: -1 Transition: complex(acceleration) 
+(10)^{2}{a}(01)^{Y1-1}{r}2(20)^{X1+3}(02)^{digits(337)} % Hops: 14 Ones: {337 digits} Pos: -2 Transition: complex(normal) 
+(10)^{2}(01)^{Y1-2}10{a}2{l}(20)^{X1+3}(02)^{digits(337)} % Hops: 17 Ones: {337 digits} Pos: -1 Transition: complex(normal) 
+(10)^{2}(01)^{Y1-2}101{d}(20)^{X1+3}{l}(02)^{digits(337)} % Hops: 18 Ones: {337 digits} Pos: 0 Transition: complex(normal) 
+(10)^{2}(01)^{Y1-2}1{c}01{r}(0)^{2}(20)^{X1+2}(02)^{digits(337)} % Hops: 19 Ones: {337 digits} Pos: -1 Transition: complex(normal) 
+(10)^{2}(01)^{Y1-2}{c}1{r}20(0)^{2}(20)^{X1+2}(02)^{digits(337)} % Hops: 21 Ones: {337 digits} Pos: -3 Transition: complex(acceleration) 
+(10)^{2}{b}(01)^{Y1-2}{r}02(0)^{3}(20)^{X1+2}(02)^{digits(337)} % Hops: 22 Ones: {337 digits} Pos: -4 Transition: complex(normal) 
+% otter 3 verified (attempt 1) in 11 steps
+% Otter transition is Otter 3 (uni): {b}(01)^{Y1}{r}02(0)^{3}(20)^{X1} ++> {b}(01)^{Y1 mod 2}{r}02(0)^{3}(20)^{X1+Y1-Y1 mod 2} Found: {673 digits} Diffs: diffs([m(1,0)],m(1,-2),[m(1,0),m(1,0),m(1,2),m(1,0)]) Mins Xs: [0] Ys: [2] Mods [] in 11*(Y1-Y1 mod 2) steps movement -4*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(a,2,1,r,d),t(b,0,2,l,c),t(b,1,0,r,a),t(b,2,1,l,b),t(c,0,2,l,a),t(c,1,0,l,b),t(d,2,0,l,c)]
+% Otter found -- checking whether to apply it to config([grp([1,0],2)],b,grp([0,1],5),r,[grp([0,2],1),grp([0],3),grp([2,0],5),grp([0,2],925256385469511214658553559613124372806246595414113351584126187996707251018634206996277621941472300773711283006360724613612895487521172157196910406842975928870892964166735692881065522190941290381122757172842594017976414282392762866050315662773968022775684255554513150717445395685803344917963351394042370996734869560807827571060538522332)]) at {673 digits} ... 
+% Otter applied to get to {673 digits}
+% Regression (uni) {730 digits}:{c}(10)^{5}{r}2(02)^{digits(365)} -> +22:{c}(10)^{3}{r}2(02)^{digits(365)} -> +22:{c}10{r}2(02)^{digits(365)}
+% otter 4 proof attempt 1 ([]): {c}(10)^{Y1}{r}2(02)^{X1} -->> {c}(10)^{Y1-2}{r}2(02)^{X1+2} Progressors: 1, Regressors: 1
+{c}(10)^{Y1}{r}2(02)^{X1} % Hops: 0 Ones: 1 Pos: 0 Transition: init 
+{a}(10)^{Y1-1}{r}122(02)^{X1} % Hops: 2 Ones: 3 Pos: -2 Transition: complex(normal) 
+(10)^{Y1-2}(1)^{2}{b}12{l}2(02)^{X1} % Hops: 3 Ones: 5 Pos: -1 Transition: complex(normal) 
+(10)^{Y1-2}(1)^{2}01{d}2{l}(02)^{X1} % Hops: 5 Ones: 4 Pos: 1 Transition: complex(normal) 
+(10)^{Y1-2}(1)^{2}{c}01{r}0(02)^{X1} % Hops: 6 Ones: 3 Pos: 0 Transition: complex(normal) 
+(10)^{Y1-2}{c}(1)^{2}{r}200(02)^{X1} % Hops: 8 Ones: 3 Pos: -2 Transition: complex(acceleration) 
+(10)^{Y1-2}{b}1{r}02(0)^{2}(02)^{X1} % Hops: 9 Ones: 2 Pos: -3 Transition: complex(normal) 
+(10)^{Y1-2}0{a}02{l}(0)^{2}(02)^{X1} % Hops: 10 Ones: 1 Pos: -2 Transition: complex(normal) 
+(10)^{Y1-2}010{a}(0)^{2}{l}(02)^{X1} % Hops: 16 Ones: 1 Pos: 0 Transition: complex(acceleration) 
+(10)^{Y1-2}0101{b}0{l}(02)^{X1} % Hops: 17 Ones: 2 Pos: 1 Transition: complex(normal) 
+(10)^{Y1-2}010{c}1{r}2(02)^{X1} % Hops: 18 Ones: 3 Pos: 0 Transition: complex(normal) 
+(10)^{Y1-2}0{b}10{r}(02)^{X1+1} % Hops: 19 Ones: 1 Pos: -1 Transition: complex(normal) 
+(10)^{Y1-2}{b}0{r}(02)^{X1+2} % Hops: 21 Ones: 0 Pos: -3 Transition: complex(acceleration) 
+{c}(10)^{Y1-2}{r}2(02)^{X1+2} % Hops: 22 Ones: 1 Pos: -4 Transition: complex(normal) 
+% otter 4 verified (attempt 1) in 13 steps
+% Otter transition is Otter 4 (uni): {c}(10)^{Y1}{r}2(02)^{X1} ++> {c}(10)^{Y1 mod 2}{r}2(02)^{X1+Y1-Y1 mod 2} Found: {730 digits} Diffs: diffs([],m(1,-2),[m(1,0),m(1,2)]) Mins Xs: [0] Ys: [2] Mods [] in 11*(Y1-Y1 mod 2) steps movement -4*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(a,2,1,r,d),t(b,0,2,l,c),t(b,1,0,r,a),t(b,2,1,l,b),t(c,0,2,l,a),t(c,1,0,l,b),t(d,2,0,l,c)]
+% Otter found -- checking whether to apply it to config([],c,grp([1,0],5),r,[grp([2],1),grp([0,2],20746975731617536800727296889620029835466977887849093682688715667210702691958131076264311913590248384445041406237306486637298602445164107933983832670421884407973202610704783939036198948099673100704968367490193070959578816203250373701537375657763481513013054780693148500400009866558688412641689903271311122240404123926300531172277626991486350049569624511511671433784)]) at {730 digits} ... 
+% Otter applied to get to {730 digits}
+% halts: Final configuration is (10100)^{2}10110120112{z}2{l}(02)^{digits(3861)} Ones: {3861 digits} Hops: {7722 digits} Steps: 1311901
+% Otters: 4 Multilinear: 0 Unique Otters: 4 Otters Nested: 0 Otter Steps: 4516 Otter Jumps: 4516 Otter Proofs: [o(1,17),o(2,15),o(3,12),o(4,14)] Otter Diffs: [o(1,d(54,78)),o(2,d(54,78)),o(3,d(22,22)),o(4,d(22,22))] Flat: 2  Ocelots: 24416 Ocelot Steps: {7722 digits} Ocelot Proofs: 0 Shape: (10100)^{2}10110120112{z}2{l}(02)* Shape Size: 30  MaxProgs: 1 MaxRegs: 1 
+Applications Otter 1 times: 241, steps: {3844 digits}
+Applications Otter 2 times: 21915, steps: {7722 digits}
+Applications Otter 3 times: 84, steps: 2090
+Applications Otter 4 times: 2176, steps: 53262
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> c 2 l Steps: 1
+% Trans: c 1 r -> b 0 l Steps: 1
+% Trans: b 0 r -> c 2 l Steps: 1
+% Trans: c 0 r -> a 2 l Steps: 1
+% Trans: a 0 r -> b 1 r Steps: 1
+% Trans: b 2 l -> b 1 l Steps: 1
+% Trans: b 1 r -> a 0 r Steps: 1
+% Trans: a 1 l -> a 1 l Steps: 1
+% Trans: b 1 l -> a 0 r Steps: 1
+% Trans: a 2 l -> d 1 r Steps: 1
+% Trans: d 0 l -> c 2 r Steps: 1
+% Trans: c 2 l -> d 0 r Steps: 1
+% Trans: c 0 l -> a 2 l Steps: 1
+% Trans: a 2 r -> d 1 r Steps: 1
+% Trans: d 2 l -> c 0 l Steps: 1
+% Trans: c 2 r -> d 0 r Steps: 1
+% Trans: a 1 r -> a 1 l Steps: 1
+% Trans: a 20 l -> c 12 r Steps: 2
+% Trans: c 20 l -> c 02 r Steps: 2
+% Trans: a 02 r -> d 01 r Steps: 1
+% Trans: c 01 r -> c 20 l Steps: 2
+% Trans: c 02 r -> d 00 r Steps: 1
+% Trans: d 20 l -> c 00 l Steps: 1
+% Trans: b 02 r -> c 21 l Steps: 2
+% Trans: d 21 l -> c 01 l Steps: 1
+% Trans: d 01 l -> b 10 l Steps: 3
+% Trans: a 10 l -> a 10 l Steps: 1
+% Trans: b 10 l -> b 01 r Steps: 2
+% Trans: a 02 l -> a 10 r Steps: 6
+% Trans: c 10 r -> a 12 l Steps: 2
+% Trans: a 10 r -> b 11 r Steps: 1
+% Trans: b 12 l -> d 01 r Steps: 2
+% Trans: b 01 r -> a 00 r Steps: 1
+% Trans: a 20 r -> b 21 r Steps: 1
+% Trans: b 21 r -> a 20 r Steps: 1
+% Trans: c 21 r -> b 10 l Steps: 2
+% Trans: b 20 r -> a 20 l Steps: 4
+% Trans: b 20 l -> b 10 l Steps: 1
+% Trans: b 2 r -> b 1 l Steps: 1
+% Trans: c 1 l -> b 0 l Steps: 1
+% Trans: b 12 r -> a 10 r Steps: 5
+% Trans: b 02 l -> c 22 l Steps: 1
+% Trans: b 10 r -> b 02 l Steps: 2
+% Trans: a 01 l -> a 10 r Steps: 2
+% Trans: d 02 l -> d 20 r Steps: 2
+% Trans: a 01 r -> a 10 r Steps: 3
+% Trans: b 10100 r -> c 20202 l Steps: 23
+% Trans: c 10100 r -> a 10110 r Steps: 7
+% Trans: a 20202 l -> d 12020 r Steps: 5
+% Trans: b 010 r -> c 202 l Steps: 3
+% Trans: c 010 r -> d 101 r Steps: 5
+% Trans: d 202 l -> c 002 l Steps: 1
+% Trans: c 20 r -> b 00 l Steps: 4
+% Trans: c 10 l -> b 00 l Steps: 1
+% Trans: a 12 r -> d 11 r Steps: 1
+% Trans: a 12 l -> a 12 l Steps: 1
+% Trans: c 02 l -> a 22 l Steps: 1
+% Trans: c 12 r -> d 10 r Steps: 1
+% Trans: b 00101 r -> a 00100 r Steps: 1
+% Trans: b 00100 r -> c 20200 l Steps: 11
+% Trans: c 00101 r -> a 22020 l Steps: 5
+% Trans: a 00101 r -> a 00110 r Steps: 3
+% Trans: a 22020 l -> b 00020 l Steps: 3
+% Trans: b 00110 r -> a 00010 r Steps: 9
+% Trans: b 00010 r -> d 10120 r Steps: 13
+% Trans: a 101 r -> a 110 r Steps: 3
+% Trans: b 110 r -> a 010 r Steps: 9
+% Trans: b 101 r -> a 100 r Steps: 1
+% Trans: b 100 r -> a 122 l Steps: 3
+% Trans: a 10100 r -> b 10101 r Steps: 1
+% Trans: b 122 l -> c 200 l Steps: 5
+% Trans: c 10101 r -> b 02020 l Steps: 5
+% Trans: a 100 r -> b 101 r Steps: 1
+% Trans: c 01010 r -> d 01101 r Steps: 5
+% Trans: c 01101 r -> b 00101 r Steps: 11
+% Trans: a 01010 r -> b 01011 r Steps: 1
+% Trans: b 22020 l -> b 12020 l Steps: 1
+% Trans: b 01011 r -> a 01010 r Steps: 1
+% Trans: a 12020 l -> a 12020 l Steps: 1
+% Trans: b 12020 l -> c 01202 r Steps: 5
+% Trans: c 101001010 r -> d 101001101 r Steps: 5
+% Trans: c 101001101 r -> b 101000101 r Steps: 11
+% Trans: c 101000101 r -> c 101101202 r Steps: 15
+% Trans: d 12 l -> z 12 r Steps: 1
+% No more transitions
+
+Otter 1 (uni): (02)^{Y1}(10)^{X1}{a}0{l}(blank) ++> (02)^{Y1 mod 2}(10)^{X1+3*(Y1//2)}{a}0{l} Found: 981 Diffs: diffs([m(1,3),m(1,-2),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,0),[]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(8*X1+6*(Y1-Y1 mod 2)+10) steps movement 2*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(b,0,2,l,c),t(b,1,0,r,a),t(b,2,1,l,b),t(c,0,2,l,a),t(c,1,0,l,b),t(c,2,0,r,d),t(d,2,0,l,c)]
+Otter 2 (uni): (20)^{Y1}2(10)^{X1}{a}0{l}(blank) ++> (20)^{Y1 mod 2}2(10)^{X1+3*(Y1//2)}{a}0{l} Found: 3659 Diffs: diffs([m(1,3),m(1,0),m(1,-2),m(1,0),m(1,0),m(1,0)],m(1,0),[]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(8*X1+6*(Y1-Y1 mod 2)+10) steps movement 2*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(b,0,2,l,c),t(b,1,0,r,a),t(b,2,1,l,b),t(c,0,2,l,a),t(c,1,0,l,b),t(c,2,0,r,d),t(d,2,0,l,c)]
+Otter 3 (uni): {b}(01)^{Y1}{r}02(0)^{3}(20)^{X1} ++> {b}(01)^{Y1 mod 2}{r}02(0)^{3}(20)^{X1+Y1-Y1 mod 2} Found: {673 digits} Diffs: diffs([m(1,0)],m(1,-2),[m(1,0),m(1,0),m(1,2),m(1,0)]) Mins Xs: [0] Ys: [2] Mods [] in 11*(Y1-Y1 mod 2) steps movement -4*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(a,2,1,r,d),t(b,0,2,l,c),t(b,1,0,r,a),t(b,2,1,l,b),t(c,0,2,l,a),t(c,1,0,l,b),t(d,2,0,l,c)]
+Otter 4 (uni): {c}(10)^{Y1}{r}2(02)^{X1} ++> {c}(10)^{Y1 mod 2}{r}2(02)^{X1+Y1-Y1 mod 2} Found: {730 digits} Diffs: diffs([],m(1,-2),[m(1,0),m(1,2)]) Mins Xs: [0] Ys: [2] Mods [] in 11*(Y1-Y1 mod 2) steps movement -4*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(a,2,1,r,d),t(b,0,2,l,c),t(b,1,0,r,a),t(b,2,1,l,b),t(c,0,2,l,a),t(c,1,0,l,b),t(d,2,0,l,c)]
+
+First otter detected starting at 981
+took 558.91 seconds

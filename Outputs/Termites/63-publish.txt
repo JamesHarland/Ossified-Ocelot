@@ -1,0 +1,301 @@
+% Regression (uni) 153:{e}0{r}(0)^{3}(10)^{7}0(1)^{2} -> +18:{e}0{r}(01)^{3}(0)^{3}(10)^{5}0(1)^{2} -> +36:{e}0{r}(01)^{6}(0)^{3}(10)^{3}0(1)^{2}
+% otter 1 proof attempt 1 ([]): {e}0{r}(01)^{X1}(0)^{3}(10)^{Y1}0(1)^{2} -->> {e}0{r}(01)^{X1+3}(0)^{3}(10)^{Y1-2}0(1)^{2} Progressors: 1, Regressors: 1
+{e}0{r}(01)^{X1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 0 Ones: 2 Pos: 0 Transition: init 
+{f}0{r}1(01)^{X1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 1 Ones: 3 Pos: -1 Transition: complex(normal) 
+1{d}1{l}(01)^{X1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 2 Ones: 4 Pos: 0 Transition: complex(normal) 
+10{b}(01)^{X1}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 3 Ones: 3 Pos: 1 Transition: complex(normal) 
+1{a}0{r}(1)^{2}(01)^{X1-1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 4 Ones: 5 Pos: 0 Transition: complex(normal) 
+(1)^{2}{b}(1)^{2}{l}(01)^{X1-1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 5 Ones: 6 Pos: 1 Transition: complex(normal) 
+(1)^{3}{d}1{l}(01)^{X1-1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 6 Ones: 6 Pos: 2 Transition: complex(normal) 
+(1)^{3}0{b}(01)^{X1-1}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 7 Ones: 5 Pos: 3 Transition: complex(normal) 
+(1)^{3}{a}0{r}(1)^{2}(01)^{X1-2}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 8 Ones: 7 Pos: 2 Transition: complex(normal) 
+(1)^{4}{b}(1)^{2}{l}(01)^{X1-2}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 9 Ones: 8 Pos: 3 Transition: complex(normal) 
+(1)^{5}{d}1{l}(01)^{X1-2}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 10 Ones: 8 Pos: 4 Transition: complex(normal) 
+(1)^{5}0{b}(01)^{X1-2}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 11 Ones: 7 Pos: 5 Transition: complex(normal) 
+(1)^{5}{a}0{r}(1)^{2}(01)^{X1-3}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 12 Ones: 9 Pos: 4 Transition: complex(normal) 
+(1)^{6}{b}(1)^{2}{l}(01)^{X1-3}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 13 Ones: 10 Pos: 5 Transition: complex(normal) 
+(1)^{7}{d}1{l}(01)^{X1-3}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 14 Ones: 10 Pos: 6 Transition: complex(normal) 
+(1)^{7}0{b}(01)^{X1-3}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 15 Ones: 9 Pos: 7 Transition: complex(normal) 
+(1)^{7}{a}0{r}(1)^{2}(01)^{X1-4}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 16 Ones: 11 Pos: 6 Transition: complex(normal) 
+(1)^{8}{b}(1)^{2}{l}(01)^{X1-4}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 17 Ones: 12 Pos: 7 Transition: complex(normal) 
+(1)^{9}{d}1{l}(01)^{X1-4}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 18 Ones: 12 Pos: 8 Transition: complex(normal) 
+(1)^{9}0{b}(01)^{X1-4}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 19 Ones: 11 Pos: 9 Transition: complex(normal) 
+(1)^{9}{a}0{r}(1)^{2}(01)^{X1-5}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 20 Ones: 13 Pos: 8 Transition: complex(normal) 
+(1)^{10}{b}(1)^{2}{l}(01)^{X1-5}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 21 Ones: 14 Pos: 9 Transition: complex(normal) 
+(1)^{11}{d}1{l}(01)^{X1-5}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 22 Ones: 14 Pos: 10 Transition: complex(normal) 
+(1)^{11}0{b}(01)^{X1-5}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 23 Ones: 13 Pos: 11 Transition: complex(normal) 
+(1)^{11}{a}0{r}(1)^{2}(01)^{X1-6}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 24 Ones: 15 Pos: 10 Transition: complex(normal) 
+(1)^{12}{b}(1)^{2}{l}(01)^{X1-6}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 25 Ones: 16 Pos: 11 Transition: complex(normal) 
+(1)^{13}{d}1{l}(01)^{X1-6}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 26 Ones: 16 Pos: 12 Transition: complex(normal) 
+(1)^{13}0{b}(01)^{X1-6}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 27 Ones: 15 Pos: 13 Transition: complex(normal) 
+(1)^{13}{a}0{r}(1)^{2}(01)^{X1-7}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 28 Ones: 17 Pos: 12 Transition: complex(normal) 
+(1)^{14}{b}(1)^{2}{l}(01)^{X1-7}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 29 Ones: 18 Pos: 13 Transition: complex(normal) 
+(1)^{15}{d}1{l}(01)^{X1-7}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 30 Ones: 18 Pos: 14 Transition: complex(normal) 
+(1)^{15}0{b}(01)^{X1-7}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 31 Ones: 17 Pos: 15 Transition: complex(normal) 
+(1)^{15}{a}0{r}(1)^{2}(01)^{X1-8}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 32 Ones: 19 Pos: 14 Transition: complex(normal) 
+(1)^{16}{b}(1)^{2}{l}(01)^{X1-8}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 33 Ones: 20 Pos: 15 Transition: complex(normal) 
+(1)^{17}{d}1{l}(01)^{X1-8}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 34 Ones: 20 Pos: 16 Transition: complex(normal) 
+(1)^{17}0{b}(01)^{X1-8}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 35 Ones: 19 Pos: 17 Transition: complex(normal) 
+(1)^{17}{a}0{r}(1)^{2}(01)^{X1-9}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 36 Ones: 21 Pos: 16 Transition: complex(normal) 
+(1)^{18}{b}(1)^{2}{l}(01)^{X1-9}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 37 Ones: 22 Pos: 17 Transition: complex(normal) 
+(1)^{19}{d}1{l}(01)^{X1-9}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 38 Ones: 22 Pos: 18 Transition: complex(normal) 
+(1)^{19}0{b}(01)^{X1-9}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 39 Ones: 21 Pos: 19 Transition: complex(normal) 
+(1)^{19}{a}0{r}(1)^{2}(01)^{X1-10}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 40 Ones: 23 Pos: 18 Transition: complex(normal) 
+(1)^{20}{b}(1)^{2}{l}(01)^{X1-10}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 41 Ones: 24 Pos: 19 Transition: complex(normal) 
+(1)^{21}{d}1{l}(01)^{X1-10}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 42 Ones: 24 Pos: 20 Transition: complex(normal) 
+(1)^{21}0{b}(01)^{X1-10}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 43 Ones: 23 Pos: 21 Transition: complex(normal) 
+(1)^{21}{a}0{r}(1)^{2}(01)^{X1-11}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 44 Ones: 25 Pos: 20 Transition: complex(normal) 
+(1)^{22}{b}(1)^{2}{l}(01)^{X1-11}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 45 Ones: 26 Pos: 21 Transition: complex(normal) 
+(1)^{23}{d}1{l}(01)^{X1-11}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 46 Ones: 26 Pos: 22 Transition: complex(normal) 
+(1)^{23}0{b}(01)^{X1-11}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 47 Ones: 25 Pos: 23 Transition: complex(normal) 
+(1)^{23}{a}0{r}(1)^{2}(01)^{X1-12}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 48 Ones: 27 Pos: 22 Transition: complex(normal) 
+(1)^{24}{b}(1)^{2}{l}(01)^{X1-12}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 49 Ones: 28 Pos: 23 Transition: complex(normal) 
+(1)^{25}{d}1{l}(01)^{X1-12}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 50 Ones: 28 Pos: 24 Transition: complex(normal) 
+(1)^{25}0{b}(01)^{X1-12}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 51 Ones: 27 Pos: 25 Transition: complex(normal) 
+(1)^{25}{a}0{r}(1)^{2}(01)^{X1-13}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 52 Ones: 29 Pos: 24 Transition: complex(normal) 
+(1)^{26}{b}(1)^{2}{l}(01)^{X1-13}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 53 Ones: 30 Pos: 25 Transition: complex(normal) 
+(1)^{27}{d}1{l}(01)^{X1-13}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 54 Ones: 30 Pos: 26 Transition: complex(normal) 
+(1)^{27}0{b}(01)^{X1-13}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 55 Ones: 29 Pos: 27 Transition: complex(normal) 
+(1)^{27}{a}0{r}(1)^{2}(01)^{X1-14}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 56 Ones: 31 Pos: 26 Transition: complex(normal) 
+(1)^{28}{b}(1)^{2}{l}(01)^{X1-14}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 57 Ones: 32 Pos: 27 Transition: complex(normal) 
+(1)^{29}{d}1{l}(01)^{X1-14}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 58 Ones: 32 Pos: 28 Transition: complex(normal) 
+(1)^{29}0{b}(01)^{X1-14}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 59 Ones: 31 Pos: 29 Transition: complex(normal) 
+(1)^{29}{a}0{r}(1)^{2}(01)^{X1-15}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 60 Ones: 33 Pos: 28 Transition: complex(normal) 
+(1)^{30}{b}(1)^{2}{l}(01)^{X1-15}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 61 Ones: 34 Pos: 29 Transition: complex(normal) 
+(1)^{31}{d}1{l}(01)^{X1-15}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 62 Ones: 34 Pos: 30 Transition: complex(normal) 
+(1)^{31}0{b}(01)^{X1-15}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 63 Ones: 33 Pos: 31 Transition: complex(normal) 
+(1)^{31}{a}0{r}(1)^{2}(01)^{X1-16}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 64 Ones: 35 Pos: 30 Transition: complex(normal) 
+(1)^{32}{b}(1)^{2}{l}(01)^{X1-16}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 65 Ones: 36 Pos: 31 Transition: complex(normal) 
+(1)^{33}{d}1{l}(01)^{X1-16}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 66 Ones: 36 Pos: 32 Transition: complex(normal) 
+(1)^{33}0{b}(01)^{X1-16}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 67 Ones: 35 Pos: 33 Transition: complex(normal) 
+(1)^{33}{a}0{r}(1)^{2}(01)^{X1-17}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 68 Ones: 37 Pos: 32 Transition: complex(normal) 
+(1)^{34}{b}(1)^{2}{l}(01)^{X1-17}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 69 Ones: 38 Pos: 33 Transition: complex(normal) 
+(1)^{35}{d}1{l}(01)^{X1-17}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 70 Ones: 38 Pos: 34 Transition: complex(normal) 
+(1)^{35}0{b}(01)^{X1-17}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 71 Ones: 37 Pos: 35 Transition: complex(normal) 
+(1)^{35}{a}0{r}(1)^{2}(01)^{X1-18}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 72 Ones: 39 Pos: 34 Transition: complex(normal) 
+(1)^{36}{b}(1)^{2}{l}(01)^{X1-18}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 73 Ones: 40 Pos: 35 Transition: complex(normal) 
+(1)^{37}{d}1{l}(01)^{X1-18}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 74 Ones: 40 Pos: 36 Transition: complex(normal) 
+(1)^{37}0{b}(01)^{X1-18}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 75 Ones: 39 Pos: 37 Transition: complex(normal) 
+(1)^{37}{a}0{r}(1)^{2}(01)^{X1-19}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 76 Ones: 41 Pos: 36 Transition: complex(normal) 
+(1)^{38}{b}(1)^{2}{l}(01)^{X1-19}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 77 Ones: 42 Pos: 37 Transition: complex(normal) 
+(1)^{39}{d}1{l}(01)^{X1-19}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 78 Ones: 42 Pos: 38 Transition: complex(normal) 
+(1)^{39}0{b}(01)^{X1-19}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 79 Ones: 41 Pos: 39 Transition: complex(normal) 
+(1)^{39}{a}0{r}(1)^{2}(01)^{X1-20}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 80 Ones: 43 Pos: 38 Transition: complex(normal) 
+(1)^{40}{b}(1)^{2}{l}(01)^{X1-20}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 81 Ones: 44 Pos: 39 Transition: complex(normal) 
+(1)^{41}{d}1{l}(01)^{X1-20}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 82 Ones: 44 Pos: 40 Transition: complex(normal) 
+(1)^{41}0{b}(01)^{X1-20}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 83 Ones: 43 Pos: 41 Transition: complex(normal) 
+(1)^{41}{a}0{r}(1)^{2}(01)^{X1-21}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 84 Ones: 45 Pos: 40 Transition: complex(normal) 
+(1)^{42}{b}(1)^{2}{l}(01)^{X1-21}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 85 Ones: 46 Pos: 41 Transition: complex(normal) 
+(1)^{43}{d}1{l}(01)^{X1-21}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 86 Ones: 46 Pos: 42 Transition: complex(normal) 
+(1)^{43}0{b}(01)^{X1-21}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 87 Ones: 45 Pos: 43 Transition: complex(normal) 
+(1)^{43}{a}0{r}(1)^{2}(01)^{X1-22}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 88 Ones: 47 Pos: 42 Transition: complex(normal) 
+(1)^{44}{b}(1)^{2}{l}(01)^{X1-22}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 89 Ones: 48 Pos: 43 Transition: complex(normal) 
+(1)^{45}{d}1{l}(01)^{X1-22}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 90 Ones: 48 Pos: 44 Transition: complex(normal) 
+(1)^{45}0{b}(01)^{X1-22}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 91 Ones: 47 Pos: 45 Transition: complex(normal) 
+(1)^{45}{a}0{r}(1)^{2}(01)^{X1-23}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 92 Ones: 49 Pos: 44 Transition: complex(normal) 
+(1)^{46}{b}(1)^{2}{l}(01)^{X1-23}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 93 Ones: 50 Pos: 45 Transition: complex(normal) 
+(1)^{47}{d}1{l}(01)^{X1-23}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 94 Ones: 50 Pos: 46 Transition: complex(normal) 
+(1)^{47}0{b}(01)^{X1-23}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 95 Ones: 49 Pos: 47 Transition: complex(normal) 
+(1)^{47}{a}0{r}(1)^{2}(01)^{X1-24}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 96 Ones: 51 Pos: 46 Transition: complex(normal) 
+(1)^{48}{b}(1)^{2}{l}(01)^{X1-24}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 97 Ones: 52 Pos: 47 Transition: complex(normal) 
+(1)^{49}{d}1{l}(01)^{X1-24}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 98 Ones: 52 Pos: 48 Transition: complex(normal) 
+(1)^{49}0{b}(01)^{X1-24}{l}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 99 Ones: 51 Pos: 49 Transition: complex(normal) 
+(1)^{49}{a}0{r}(1)^{2}(01)^{X1-25}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 100 Ones: 53 Pos: 48 Transition: complex(normal) 
+% otter 1 abandoned (going_steps(100)) due to bound of 100 steps being exceeded (attempt 1)
+% otter 1 proof attempt 2 ([accel]): {e}0{r}(01)^{X1}(0)^{3}(10)^{Y1}0(1)^{2} -->> {e}0{r}(01)^{X1+3}(0)^{3}(10)^{Y1-2}0(1)^{2} Progressors: 1, Regressors: 1
+{e}0{r}(01)^{X1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 0 Ones: 2 Pos: 0 Transition: init 
+{f}0{r}1(01)^{X1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 1 Ones: 3 Pos: -1 Transition: complex(normal) 
+1{d}1{l}(01)^{X1}(0)^{3}(10)^{Y1}0(1)^{2} % Hops: 2 Ones: 4 Pos: 0 Transition: complex(normal) 
+(1)^{2*X1+3}{d}(0)^{2}{l}(10)^{Y1}0(1)^{2} % Hops: 4*X1+6 Ones: 2 Pos: 2*X1+2 Transition: expansion(1) 
+(1)^{2*X1+4}{a}0{l}(10)^{Y1}0(1)^{2} % Hops: 4*X1+7 Ones: 2 Pos: 2*X1+3 Transition: complex(normal) 
+(1)^{2*X1+5}{b}(10)^{Y1}{l}0(1)^{2} % Hops: 4*X1+8 Ones: 2 Pos: 2*X1+4 Transition: complex(normal) 
+(1)^{2*X1+7}{a}(10)^{Y1-1}{l}0(1)^{2} % Hops: 4*X1+10 Ones: 2 Pos: 2*X1+6 Transition: complex(normal) 
+{c}(1)^{2*X1+7}{r}(0)^{2}(10)^{Y1-2}0(1)^{2} % Hops: 4*X1+11 Ones: 2 Pos: 2*X1+5 Transition: complex(normal) 
+{c}1{r}(10)^{X1+3}(0)^{2}(10)^{Y1-2}0(1)^{2} % Hops: 6*X1+17 Ones: 3 Pos: -1 Transition: expansion(2) 
+{e}0{r}0(10)^{X1+3}(0)^{2}(10)^{Y1-2}0(1)^{2} % Hops: 6*X1+18 Ones: 2 Pos: -2 Transition: complex(normal) 
+% otter 1 verified (attempt 2) in 9 steps
+% Otter transition is Otter 1 (uni): (blank){e}0{r}(01)^{X1}(0)^{3}(10)^{Y1} ++> {e}0{r}(01)^{X1+3*(Y1//2)}(0)^{3}(10)^{Y1 mod 2} Found: 153 Diffs: diffs([],m(1,0),[m(1,3),m(1,0),m(1,-2),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(6*X1+9*(Y1//2)+9) steps movement -2*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,1,r,d),t(c,1,0,l,e),t(d,0,1,r,a),t(d,1,0,r,b),t(e,0,1,l,f),t(e,1,1,l,c),t(f,0,1,r,d)]
+% Otter found -- checking whether to apply it to config([],e,grp([0],1),r,[grp([0],3),grp([1,0],7),grp([0],1),grp([1],2)]) at 207 ... 
+% Otter applied to get to 261
+% Regression (uni) 2187:1{d}1{l}(01)^{33}(0)^{4}(1)^{2} -> +4:(1)^{3}{d}1{l}(01)^{32}(0)^{4}(1)^{2} -> +4:(1)^{5}{d}1{l}(01)^{31}(0)^{4}(1)^{2}
+% otter 2 proof attempt 1 ([]): (1)^{X1}{d}1{l}(01)^{Y1}(0)^{4}(1)^{2} -->> (1)^{X1+2}{d}1{l}(01)^{Y1-1}(0)^{4}(1)^{2} Progressors: 1, Regressors: 1
+(1)^{X1}{d}1{l}(01)^{Y1}(0)^{4}(1)^{2} % Hops: 0 Ones: 3 Pos: 0 Transition: init 
+(1)^{X1}0{b}(01)^{Y1}{l}(0)^{4}(1)^{2} % Hops: 1 Ones: 2 Pos: 1 Transition: complex(normal) 
+(1)^{X1}{a}0{r}(1)^{2}(01)^{Y1-1}(0)^{4}(1)^{2} % Hops: 2 Ones: 4 Pos: 0 Transition: complex(normal) 
+(1)^{X1+1}{b}(1)^{2}{l}(01)^{Y1-1}(0)^{4}(1)^{2} % Hops: 3 Ones: 4 Pos: 1 Transition: complex(normal) 
+(1)^{X1+2}{d}1{l}(01)^{Y1-1}(0)^{4}(1)^{2} % Hops: 4 Ones: 3 Pos: 2 Transition: complex(normal) 
+% otter 2 verified (attempt 1) in 4 steps
+% Otter transition is Otter 2 (uni): (1)^{X1}{d}1{l}(01)^{Y1} ++> (1)^{X1+2*Y1}{d}1{l} Found: 2187 Diffs: diffs([m(1,2)],m(1,0),[m(1,-1),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 4*Y1 steps movement 2*Y1 Trans: [t(a,0,1,r,b),t(b,0,1,l,a),t(b,1,1,r,d),t(d,1,0,r,b)]
+% Otter found -- checking whether to apply it to config([grp([1],1)],d,grp([1],1),l,[grp([0,1],33),grp([0],4),grp([1],2)]) at 2195 ... 
+% Otter applied to get to 2319
+% Regression (uni) 41348998:{e}(1)^{6}{r}(0)^{2}(01)^{4791} -> +2:{e}(1)^{4}{r}01(0)^{2}(01)^{4791} -> +2:{e}(1)^{2}{r}(01)^{2}(0)^{2}(01)^{4791}
+% otter 3 proof attempt 1 ([]): {e}(1)^{Y1}{r}(01)^{X1}(0)^{2}(01)^{4791} -->> {e}(1)^{Y1-2}{r}(01)^{X1+1}(0)^{2}(01)^{4791} Progressors: 1, Regressors: 1
+{e}(1)^{Y1}{r}(01)^{X1}(0)^{2}(01)^{4791} % Hops: 0 Ones: 4791 Pos: 0 Transition: init 
+{c}(1)^{Y1-1}{r}1(01)^{X1}(0)^{2}(01)^{4791} % Hops: 1 Ones: 4792 Pos: -1 Transition: complex(normal) 
+{e}(1)^{Y1-2}{r}(01)^{X1+1}(0)^{2}(01)^{4791} % Hops: 2 Ones: 4791 Pos: -2 Transition: complex(normal) 
+% otter 3 verified (attempt 1) in 2 steps
+% Otter transition is Otter 3 (uni): {e}(1)^{Y1}{r}(01)^{X1} ++> {e}(1)^{Y1 mod 2}{r}(01)^{X1+Y1//2} Found: 41348998 Diffs: diffs([],m(1,-2),[m(1,1),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [2] Mods [] in Y1-Y1 mod 2 steps movement -2*(Y1//2) Trans: [t(c,1,0,l,e),t(e,1,1,l,c)]
+% Otter found -- checking whether to apply it to config([],e,grp([1],6),r,[grp([0],2),grp([0,1],4791)]) at 41349002 ... 
+% Otter applied to get to 41349004
+% Regression (uni) 41348986:{e}0{r}(0)^{2}(01)^{4793} -> +18:{e}0{r}(01)^{3}(0)^{2}(01)^{4791} -> +36:{e}0{r}(01)^{6}(0)^{2}(01)^{4789}
+% otter 4 proof attempt 1 ([]): {e}0{r}(01)^{X1}(0)^{2}(01)^{Y1} -->> {e}0{r}(01)^{X1+3}(0)^{2}(01)^{Y1-2} Progressors: 1, Regressors: 1
+{e}0{r}(01)^{X1}(0)^{2}(01)^{Y1} % Hops: 0 Ones: 0 Pos: 0 Transition: init 
+{f}0{r}1(01)^{X1}(0)^{2}(01)^{Y1} % Hops: 1 Ones: 1 Pos: -1 Transition: complex(normal) 
+1{d}1{l}(01)^{X1}(0)^{2}(01)^{Y1} % Hops: 2 Ones: 2 Pos: 0 Transition: complex(normal) 
+10{b}(01)^{X1}{l}(0)^{2}(01)^{Y1} % Hops: 3 Ones: 1 Pos: 1 Transition: complex(normal) 
+1{a}0{r}(1)^{2}(01)^{X1-1}(0)^{2}(01)^{Y1} % Hops: 4 Ones: 3 Pos: 0 Transition: complex(normal) 
+(1)^{2}{b}(1)^{2}{l}(01)^{X1-1}(0)^{2}(01)^{Y1} % Hops: 5 Ones: 4 Pos: 1 Transition: complex(normal) 
+(1)^{3}{d}1{l}(01)^{X1-1}(0)^{2}(01)^{Y1} % Hops: 6 Ones: 4 Pos: 2 Transition: complex(normal) 
+(1)^{3}0{b}(01)^{X1-1}{l}(0)^{2}(01)^{Y1} % Hops: 7 Ones: 3 Pos: 3 Transition: complex(normal) 
+(1)^{3}{a}0{r}(1)^{2}(01)^{X1-2}(0)^{2}(01)^{Y1} % Hops: 8 Ones: 5 Pos: 2 Transition: complex(normal) 
+(1)^{4}{b}(1)^{2}{l}(01)^{X1-2}(0)^{2}(01)^{Y1} % Hops: 9 Ones: 6 Pos: 3 Transition: complex(normal) 
+(1)^{5}{d}1{l}(01)^{X1-2}(0)^{2}(01)^{Y1} % Hops: 10 Ones: 6 Pos: 4 Transition: complex(normal) 
+(1)^{5}0{b}(01)^{X1-2}{l}(0)^{2}(01)^{Y1} % Hops: 11 Ones: 5 Pos: 5 Transition: complex(normal) 
+(1)^{5}{a}0{r}(1)^{2}(01)^{X1-3}(0)^{2}(01)^{Y1} % Hops: 12 Ones: 7 Pos: 4 Transition: complex(normal) 
+(1)^{6}{b}(1)^{2}{l}(01)^{X1-3}(0)^{2}(01)^{Y1} % Hops: 13 Ones: 8 Pos: 5 Transition: complex(normal) 
+(1)^{7}{d}1{l}(01)^{X1-3}(0)^{2}(01)^{Y1} % Hops: 14 Ones: 8 Pos: 6 Transition: complex(normal) 
+(1)^{7}0{b}(01)^{X1-3}{l}(0)^{2}(01)^{Y1} % Hops: 15 Ones: 7 Pos: 7 Transition: complex(normal) 
+(1)^{7}{a}0{r}(1)^{2}(01)^{X1-4}(0)^{2}(01)^{Y1} % Hops: 16 Ones: 9 Pos: 6 Transition: complex(normal) 
+(1)^{8}{b}(1)^{2}{l}(01)^{X1-4}(0)^{2}(01)^{Y1} % Hops: 17 Ones: 10 Pos: 7 Transition: complex(normal) 
+(1)^{9}{d}1{l}(01)^{X1-4}(0)^{2}(01)^{Y1} % Hops: 18 Ones: 10 Pos: 8 Transition: complex(normal) 
+(1)^{9}0{b}(01)^{X1-4}{l}(0)^{2}(01)^{Y1} % Hops: 19 Ones: 9 Pos: 9 Transition: complex(normal) 
+(1)^{9}{a}0{r}(1)^{2}(01)^{X1-5}(0)^{2}(01)^{Y1} % Hops: 20 Ones: 11 Pos: 8 Transition: complex(normal) 
+(1)^{10}{b}(1)^{2}{l}(01)^{X1-5}(0)^{2}(01)^{Y1} % Hops: 21 Ones: 12 Pos: 9 Transition: complex(normal) 
+(1)^{11}{d}1{l}(01)^{X1-5}(0)^{2}(01)^{Y1} % Hops: 22 Ones: 12 Pos: 10 Transition: complex(normal) 
+(1)^{11}0{b}(01)^{X1-5}{l}(0)^{2}(01)^{Y1} % Hops: 23 Ones: 11 Pos: 11 Transition: complex(normal) 
+(1)^{11}{a}0{r}(1)^{2}(01)^{X1-6}(0)^{2}(01)^{Y1} % Hops: 24 Ones: 13 Pos: 10 Transition: complex(normal) 
+(1)^{12}{b}(1)^{2}{l}(01)^{X1-6}(0)^{2}(01)^{Y1} % Hops: 25 Ones: 14 Pos: 11 Transition: complex(normal) 
+(1)^{13}{d}1{l}(01)^{X1-6}(0)^{2}(01)^{Y1} % Hops: 26 Ones: 14 Pos: 12 Transition: complex(normal) 
+(1)^{13}0{b}(01)^{X1-6}{l}(0)^{2}(01)^{Y1} % Hops: 27 Ones: 13 Pos: 13 Transition: complex(normal) 
+(1)^{13}{a}0{r}(1)^{2}(01)^{X1-7}(0)^{2}(01)^{Y1} % Hops: 28 Ones: 15 Pos: 12 Transition: complex(normal) 
+(1)^{14}{b}(1)^{2}{l}(01)^{X1-7}(0)^{2}(01)^{Y1} % Hops: 29 Ones: 16 Pos: 13 Transition: complex(normal) 
+(1)^{15}{d}1{l}(01)^{X1-7}(0)^{2}(01)^{Y1} % Hops: 30 Ones: 16 Pos: 14 Transition: complex(normal) 
+(1)^{15}0{b}(01)^{X1-7}{l}(0)^{2}(01)^{Y1} % Hops: 31 Ones: 15 Pos: 15 Transition: complex(normal) 
+(1)^{15}{a}0{r}(1)^{2}(01)^{X1-8}(0)^{2}(01)^{Y1} % Hops: 32 Ones: 17 Pos: 14 Transition: complex(normal) 
+(1)^{16}{b}(1)^{2}{l}(01)^{X1-8}(0)^{2}(01)^{Y1} % Hops: 33 Ones: 18 Pos: 15 Transition: complex(normal) 
+(1)^{17}{d}1{l}(01)^{X1-8}(0)^{2}(01)^{Y1} % Hops: 34 Ones: 18 Pos: 16 Transition: complex(normal) 
+(1)^{17}0{b}(01)^{X1-8}{l}(0)^{2}(01)^{Y1} % Hops: 35 Ones: 17 Pos: 17 Transition: complex(normal) 
+(1)^{17}{a}0{r}(1)^{2}(01)^{X1-9}(0)^{2}(01)^{Y1} % Hops: 36 Ones: 19 Pos: 16 Transition: complex(normal) 
+(1)^{18}{b}(1)^{2}{l}(01)^{X1-9}(0)^{2}(01)^{Y1} % Hops: 37 Ones: 20 Pos: 17 Transition: complex(normal) 
+(1)^{19}{d}1{l}(01)^{X1-9}(0)^{2}(01)^{Y1} % Hops: 38 Ones: 20 Pos: 18 Transition: complex(normal) 
+(1)^{19}0{b}(01)^{X1-9}{l}(0)^{2}(01)^{Y1} % Hops: 39 Ones: 19 Pos: 19 Transition: complex(normal) 
+(1)^{19}{a}0{r}(1)^{2}(01)^{X1-10}(0)^{2}(01)^{Y1} % Hops: 40 Ones: 21 Pos: 18 Transition: complex(normal) 
+(1)^{20}{b}(1)^{2}{l}(01)^{X1-10}(0)^{2}(01)^{Y1} % Hops: 41 Ones: 22 Pos: 19 Transition: complex(normal) 
+(1)^{21}{d}1{l}(01)^{X1-10}(0)^{2}(01)^{Y1} % Hops: 42 Ones: 22 Pos: 20 Transition: complex(normal) 
+(1)^{21}0{b}(01)^{X1-10}{l}(0)^{2}(01)^{Y1} % Hops: 43 Ones: 21 Pos: 21 Transition: complex(normal) 
+(1)^{21}{a}0{r}(1)^{2}(01)^{X1-11}(0)^{2}(01)^{Y1} % Hops: 44 Ones: 23 Pos: 20 Transition: complex(normal) 
+(1)^{22}{b}(1)^{2}{l}(01)^{X1-11}(0)^{2}(01)^{Y1} % Hops: 45 Ones: 24 Pos: 21 Transition: complex(normal) 
+(1)^{23}{d}1{l}(01)^{X1-11}(0)^{2}(01)^{Y1} % Hops: 46 Ones: 24 Pos: 22 Transition: complex(normal) 
+(1)^{23}0{b}(01)^{X1-11}{l}(0)^{2}(01)^{Y1} % Hops: 47 Ones: 23 Pos: 23 Transition: complex(normal) 
+(1)^{23}{a}0{r}(1)^{2}(01)^{X1-12}(0)^{2}(01)^{Y1} % Hops: 48 Ones: 25 Pos: 22 Transition: complex(normal) 
+(1)^{24}{b}(1)^{2}{l}(01)^{X1-12}(0)^{2}(01)^{Y1} % Hops: 49 Ones: 26 Pos: 23 Transition: complex(normal) 
+(1)^{25}{d}1{l}(01)^{X1-12}(0)^{2}(01)^{Y1} % Hops: 50 Ones: 26 Pos: 24 Transition: complex(normal) 
+(1)^{25}0{b}(01)^{X1-12}{l}(0)^{2}(01)^{Y1} % Hops: 51 Ones: 25 Pos: 25 Transition: complex(normal) 
+(1)^{25}{a}0{r}(1)^{2}(01)^{X1-13}(0)^{2}(01)^{Y1} % Hops: 52 Ones: 27 Pos: 24 Transition: complex(normal) 
+(1)^{26}{b}(1)^{2}{l}(01)^{X1-13}(0)^{2}(01)^{Y1} % Hops: 53 Ones: 28 Pos: 25 Transition: complex(normal) 
+(1)^{27}{d}1{l}(01)^{X1-13}(0)^{2}(01)^{Y1} % Hops: 54 Ones: 28 Pos: 26 Transition: complex(normal) 
+(1)^{27}0{b}(01)^{X1-13}{l}(0)^{2}(01)^{Y1} % Hops: 55 Ones: 27 Pos: 27 Transition: complex(normal) 
+(1)^{27}{a}0{r}(1)^{2}(01)^{X1-14}(0)^{2}(01)^{Y1} % Hops: 56 Ones: 29 Pos: 26 Transition: complex(normal) 
+(1)^{28}{b}(1)^{2}{l}(01)^{X1-14}(0)^{2}(01)^{Y1} % Hops: 57 Ones: 30 Pos: 27 Transition: complex(normal) 
+(1)^{29}{d}1{l}(01)^{X1-14}(0)^{2}(01)^{Y1} % Hops: 58 Ones: 30 Pos: 28 Transition: complex(normal) 
+(1)^{29}0{b}(01)^{X1-14}{l}(0)^{2}(01)^{Y1} % Hops: 59 Ones: 29 Pos: 29 Transition: complex(normal) 
+(1)^{29}{a}0{r}(1)^{2}(01)^{X1-15}(0)^{2}(01)^{Y1} % Hops: 60 Ones: 31 Pos: 28 Transition: complex(normal) 
+(1)^{30}{b}(1)^{2}{l}(01)^{X1-15}(0)^{2}(01)^{Y1} % Hops: 61 Ones: 32 Pos: 29 Transition: complex(normal) 
+(1)^{31}{d}1{l}(01)^{X1-15}(0)^{2}(01)^{Y1} % Hops: 62 Ones: 32 Pos: 30 Transition: complex(normal) 
+(1)^{31}0{b}(01)^{X1-15}{l}(0)^{2}(01)^{Y1} % Hops: 63 Ones: 31 Pos: 31 Transition: complex(normal) 
+(1)^{31}{a}0{r}(1)^{2}(01)^{X1-16}(0)^{2}(01)^{Y1} % Hops: 64 Ones: 33 Pos: 30 Transition: complex(normal) 
+(1)^{32}{b}(1)^{2}{l}(01)^{X1-16}(0)^{2}(01)^{Y1} % Hops: 65 Ones: 34 Pos: 31 Transition: complex(normal) 
+(1)^{33}{d}1{l}(01)^{X1-16}(0)^{2}(01)^{Y1} % Hops: 66 Ones: 34 Pos: 32 Transition: complex(normal) 
+(1)^{33}0{b}(01)^{X1-16}{l}(0)^{2}(01)^{Y1} % Hops: 67 Ones: 33 Pos: 33 Transition: complex(normal) 
+(1)^{33}{a}0{r}(1)^{2}(01)^{X1-17}(0)^{2}(01)^{Y1} % Hops: 68 Ones: 35 Pos: 32 Transition: complex(normal) 
+(1)^{34}{b}(1)^{2}{l}(01)^{X1-17}(0)^{2}(01)^{Y1} % Hops: 69 Ones: 36 Pos: 33 Transition: complex(normal) 
+(1)^{35}{d}1{l}(01)^{X1-17}(0)^{2}(01)^{Y1} % Hops: 70 Ones: 36 Pos: 34 Transition: complex(normal) 
+(1)^{35}0{b}(01)^{X1-17}{l}(0)^{2}(01)^{Y1} % Hops: 71 Ones: 35 Pos: 35 Transition: complex(normal) 
+(1)^{35}{a}0{r}(1)^{2}(01)^{X1-18}(0)^{2}(01)^{Y1} % Hops: 72 Ones: 37 Pos: 34 Transition: complex(normal) 
+(1)^{36}{b}(1)^{2}{l}(01)^{X1-18}(0)^{2}(01)^{Y1} % Hops: 73 Ones: 38 Pos: 35 Transition: complex(normal) 
+(1)^{37}{d}1{l}(01)^{X1-18}(0)^{2}(01)^{Y1} % Hops: 74 Ones: 38 Pos: 36 Transition: complex(normal) 
+(1)^{37}0{b}(01)^{X1-18}{l}(0)^{2}(01)^{Y1} % Hops: 75 Ones: 37 Pos: 37 Transition: complex(normal) 
+(1)^{37}{a}0{r}(1)^{2}(01)^{X1-19}(0)^{2}(01)^{Y1} % Hops: 76 Ones: 39 Pos: 36 Transition: complex(normal) 
+(1)^{38}{b}(1)^{2}{l}(01)^{X1-19}(0)^{2}(01)^{Y1} % Hops: 77 Ones: 40 Pos: 37 Transition: complex(normal) 
+(1)^{39}{d}1{l}(01)^{X1-19}(0)^{2}(01)^{Y1} % Hops: 78 Ones: 40 Pos: 38 Transition: complex(normal) 
+(1)^{39}0{b}(01)^{X1-19}{l}(0)^{2}(01)^{Y1} % Hops: 79 Ones: 39 Pos: 39 Transition: complex(normal) 
+(1)^{39}{a}0{r}(1)^{2}(01)^{X1-20}(0)^{2}(01)^{Y1} % Hops: 80 Ones: 41 Pos: 38 Transition: complex(normal) 
+(1)^{40}{b}(1)^{2}{l}(01)^{X1-20}(0)^{2}(01)^{Y1} % Hops: 81 Ones: 42 Pos: 39 Transition: complex(normal) 
+(1)^{41}{d}1{l}(01)^{X1-20}(0)^{2}(01)^{Y1} % Hops: 82 Ones: 42 Pos: 40 Transition: complex(normal) 
+(1)^{41}0{b}(01)^{X1-20}{l}(0)^{2}(01)^{Y1} % Hops: 83 Ones: 41 Pos: 41 Transition: complex(normal) 
+(1)^{41}{a}0{r}(1)^{2}(01)^{X1-21}(0)^{2}(01)^{Y1} % Hops: 84 Ones: 43 Pos: 40 Transition: complex(normal) 
+(1)^{42}{b}(1)^{2}{l}(01)^{X1-21}(0)^{2}(01)^{Y1} % Hops: 85 Ones: 44 Pos: 41 Transition: complex(normal) 
+(1)^{43}{d}1{l}(01)^{X1-21}(0)^{2}(01)^{Y1} % Hops: 86 Ones: 44 Pos: 42 Transition: complex(normal) 
+(1)^{43}0{b}(01)^{X1-21}{l}(0)^{2}(01)^{Y1} % Hops: 87 Ones: 43 Pos: 43 Transition: complex(normal) 
+(1)^{43}{a}0{r}(1)^{2}(01)^{X1-22}(0)^{2}(01)^{Y1} % Hops: 88 Ones: 45 Pos: 42 Transition: complex(normal) 
+(1)^{44}{b}(1)^{2}{l}(01)^{X1-22}(0)^{2}(01)^{Y1} % Hops: 89 Ones: 46 Pos: 43 Transition: complex(normal) 
+(1)^{45}{d}1{l}(01)^{X1-22}(0)^{2}(01)^{Y1} % Hops: 90 Ones: 46 Pos: 44 Transition: complex(normal) 
+(1)^{45}0{b}(01)^{X1-22}{l}(0)^{2}(01)^{Y1} % Hops: 91 Ones: 45 Pos: 45 Transition: complex(normal) 
+(1)^{45}{a}0{r}(1)^{2}(01)^{X1-23}(0)^{2}(01)^{Y1} % Hops: 92 Ones: 47 Pos: 44 Transition: complex(normal) 
+(1)^{46}{b}(1)^{2}{l}(01)^{X1-23}(0)^{2}(01)^{Y1} % Hops: 93 Ones: 48 Pos: 45 Transition: complex(normal) 
+(1)^{47}{d}1{l}(01)^{X1-23}(0)^{2}(01)^{Y1} % Hops: 94 Ones: 48 Pos: 46 Transition: complex(normal) 
+(1)^{47}0{b}(01)^{X1-23}{l}(0)^{2}(01)^{Y1} % Hops: 95 Ones: 47 Pos: 47 Transition: complex(normal) 
+(1)^{47}{a}0{r}(1)^{2}(01)^{X1-24}(0)^{2}(01)^{Y1} % Hops: 96 Ones: 49 Pos: 46 Transition: complex(normal) 
+(1)^{48}{b}(1)^{2}{l}(01)^{X1-24}(0)^{2}(01)^{Y1} % Hops: 97 Ones: 50 Pos: 47 Transition: complex(normal) 
+(1)^{49}{d}1{l}(01)^{X1-24}(0)^{2}(01)^{Y1} % Hops: 98 Ones: 50 Pos: 48 Transition: complex(normal) 
+(1)^{49}0{b}(01)^{X1-24}{l}(0)^{2}(01)^{Y1} % Hops: 99 Ones: 49 Pos: 49 Transition: complex(normal) 
+(1)^{49}{a}0{r}(1)^{2}(01)^{X1-25}(0)^{2}(01)^{Y1} % Hops: 100 Ones: 51 Pos: 48 Transition: complex(normal) 
+% otter 4 abandoned (going_steps(100)) due to bound of 100 steps being exceeded (attempt 1)
+% otter 4 proof attempt 2 ([accel]): {e}0{r}(01)^{X1}(0)^{2}(01)^{Y1} -->> {e}0{r}(01)^{X1+3}(0)^{2}(01)^{Y1-2} Progressors: 1, Regressors: 1
+{e}0{r}(01)^{X1}(0)^{2}(01)^{Y1} % Hops: 0 Ones: 0 Pos: 0 Transition: init 
+{f}0{r}1(01)^{X1}(0)^{2}(01)^{Y1} % Hops: 1 Ones: 1 Pos: -1 Transition: complex(normal) 
+1{d}1{l}(01)^{X1}(0)^{2}(01)^{Y1} % Hops: 2 Ones: 2 Pos: 0 Transition: complex(normal) 
+(1)^{2*X1+3}{d}0{l}(01)^{Y1} % Hops: 4*X1+6 Ones: 0 Pos: 2*X1+2 Transition: expansion(1) 
+(1)^{2*X1+4}{a}(01)^{Y1}{l} % Hops: 4*X1+7 Ones: 0 Pos: 2*X1+3 Transition: complex(normal) 
+(1)^{2*X1+6}{d}(01)^{Y1-1}{l} % Hops: 4*X1+9 Ones: 0 Pos: 2*X1+5 Transition: complex(normal) 
+{e}(1)^{2*X1+6}{r}(0)^{2}(01)^{Y1-2} % Hops: 4*X1+12 Ones: 0 Pos: 2*X1+4 Transition: complex(normal) 
+{e}0{r}(01)^{X1+3}(0)^{2}(01)^{Y1-2} % Hops: 6*X1+18 Ones: 0 Pos: -2 Transition: expansion(2) 
+% otter 4 verified (attempt 2) in 7 steps
+% Otter transition is Otter 4 (uni): (blank){e}0{r}(01)^{X1}(0)^{2}(01)^{Y1} ++> {e}0{r}(01)^{X1+3*(Y1//2)}(0)^{2}(01)^{Y1 mod 2} Found: 41348986 Diffs: diffs([],m(1,0),[m(1,3),m(1,0),m(1,-2)]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(6*X1+9*(Y1//2)+9) steps movement -2*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,1,r,d),t(c,1,0,l,e),t(d,0,1,r,a),t(d,1,0,r,b),t(e,0,1,l,f),t(e,1,1,l,c),t(f,0,1,r,d)]
+% Otter found -- checking whether to apply it to config([],e,grp([0],1),r,[grp([0],2),grp([0,1],4793)]) at 41349040 ... 
+% Otter applied to get to 93037894
+% halts: Final configuration is (1)^{digits(49)}{z}(10)^{3}{l}1 Ones: {49 digits} Hops: {96 digits} Steps: 5329
+% Otters: 4 Multilinear: 0 Unique Otters: 4 Otters Nested: 0 Otter Steps: 51689154 Otter Jumps: 51689154 Otter Proofs: [o(1,10),o(2,5),o(3,3),o(4,8)] Otter Diffs: [o(1,d(18,36)),o(2,d(4,4)),o(3,d(2,2)),o(4,d(18,36))] Flat: 2  Ocelots: 544 Ocelot Steps: {96 digits} Ocelot Proofs: 0 Shape: (1)*{z}(10)^{3}{l}1 Shape Size: 11  MaxProgs: 1 MaxRegs: 1 
+Applications Otter 1 times: 257, steps: {96 digits}
+Applications Otter 2 times: 262, steps: {49 digits}
+Applications Otter 3 times: 18, steps: {36 digits}
+Applications Otter 4 times: 7, steps: {71 digits}
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> a 1 l Steps: 1
+% Trans: a 1 r -> c 0 l Steps: 1
+% Trans: c 0 r -> a 1 r Steps: 1
+% Trans: b 1 l -> d 1 r Steps: 1
+% Trans: d 0 l -> a 1 r Steps: 1
+% Trans: c 1 r -> e 0 l Steps: 1
+% Trans: e 1 r -> c 1 l Steps: 1
+% Trans: a 1 l -> c 0 l Steps: 1
+% Trans: e 0 r -> f 1 l Steps: 1
+% Trans: f 0 r -> d 1 r Steps: 1
+% Trans: d 1 l -> b 0 r Steps: 1
+% Trans: a 0 r -> b 1 r Steps: 1
+% Trans: c 11 r -> c 10 l Steps: 2
+% Trans: a 10 l -> c 00 l Steps: 1
+% Trans: a 01 l -> d 11 r Steps: 2
+% Trans: d 01 l -> e 00 l Steps: 3
+% Trans: d 10 l -> d 11 r Steps: 4
+% Trans: e 11 r -> e 01 l Steps: 2
+% Trans: b 10 l -> a 11 r Steps: 2
+% Trans: b 01 l -> a 11 l Steps: 1
+% Trans: b 100 l -> b 111 r Steps: 3
+% Trans: a 001 l -> c 011 l Steps: 3
+% Trans: b 001 l -> a 101 l Steps: 1
+% Trans: b 101 l -> c 100 l Steps: 5
+% Trans: d 11 l -> d 01 r Steps: 2
+% Trans: a 10 r -> b 11 r Steps: 1
+% Trans: c 10 r -> a 11 r Steps: 1
+% Trans: e 01 r -> e 00 l Steps: 4
+% Trans: f 1 r -> z 1 r Steps: 1
+% No more transitions
+
+Otter 1 (uni): (blank){e}0{r}(01)^{X1}(0)^{3}(10)^{Y1} ++> {e}0{r}(01)^{X1+3*(Y1//2)}(0)^{3}(10)^{Y1 mod 2} Found: 153 Diffs: diffs([],m(1,0),[m(1,3),m(1,0),m(1,-2),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(6*X1+9*(Y1//2)+9) steps movement -2*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,1,r,d),t(c,1,0,l,e),t(d,0,1,r,a),t(d,1,0,r,b),t(e,0,1,l,f),t(e,1,1,l,c),t(f,0,1,r,d)]
+Otter 2 (uni): (1)^{X1}{d}1{l}(01)^{Y1} ++> (1)^{X1+2*Y1}{d}1{l} Found: 2187 Diffs: diffs([m(1,2)],m(1,0),[m(1,-1),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 4*Y1 steps movement 2*Y1 Trans: [t(a,0,1,r,b),t(b,0,1,l,a),t(b,1,1,r,d),t(d,1,0,r,b)]
+Otter 3 (uni): {e}(1)^{Y1}{r}(01)^{X1} ++> {e}(1)^{Y1 mod 2}{r}(01)^{X1+Y1//2} Found: 41348998 Diffs: diffs([],m(1,-2),[m(1,1),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [2] Mods [] in Y1-Y1 mod 2 steps movement -2*(Y1//2) Trans: [t(c,1,0,l,e),t(e,1,1,l,c)]
+Otter 4 (uni): (blank){e}0{r}(01)^{X1}(0)^{2}(01)^{Y1} ++> {e}0{r}(01)^{X1+3*(Y1//2)}(0)^{2}(01)^{Y1 mod 2} Found: 41348986 Diffs: diffs([],m(1,0),[m(1,3),m(1,0),m(1,-2)]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(6*X1+9*(Y1//2)+9) steps movement -2*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,1,r,d),t(c,1,0,l,e),t(d,0,1,r,a),t(d,1,0,r,b),t(e,0,1,l,f),t(e,1,1,l,c),t(f,0,1,r,d)]
+
+First otter detected starting at 153
+took 3.04 seconds

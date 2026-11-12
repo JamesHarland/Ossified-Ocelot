@@ -1,0 +1,119 @@
+% Regression (uni) 84:{e}0{r}(0)^{2}(1)^{7}(0)^{2}10(1)^{2} -> +18:{e}0{r}(0)^{7}(1)^{4}(0)^{2}10(1)^{2} -> +28:{e}0{r}(0)^{12}1(0)^{2}10(1)^{2}
+% otter 1 proof attempt 1 ([]): {e}0{r}(0)^{X1}(1)^{Y1}(0)^{2}10(1)^{2} -->> {e}0{r}(0)^{X1+5}(1)^{Y1-3}(0)^{2}10(1)^{2} Progressors: 1, Regressors: 1
+{e}0{r}(0)^{X1}(1)^{Y1}(0)^{2}10(1)^{2} % Hops: 0 Ones: 3 Pos: 0 Transition: init 
+{f}0{r}(0)^{X1+1}(1)^{Y1}(0)^{2}10(1)^{2} % Hops: 1 Ones: 3 Pos: -1 Transition: complex(normal) 
+1{f}(0)^{X1+1}{l}(1)^{Y1}(0)^{2}10(1)^{2} % Hops: 2 Ones: 4 Pos: 0 Transition: complex(normal) 
+(1)^{X1+2}{f}(1)^{Y1}{l}(0)^{2}10(1)^{2} % Hops: X1+3 Ones: 3 Pos: X1+1 Transition: complex(acceleration) 
+{b}(1)^{X1+2}{r}0(1)^{Y1-1}(0)^{2}10(1)^{2} % Hops: X1+4 Ones: 3 Pos: X1 Transition: complex(normal) 
+(1)^{X1+1}0{a}0{l}(1)^{Y1-1}(0)^{2}10(1)^{2} % Hops: X1+5 Ones: 3 Pos: X1+1 Transition: complex(normal) 
+(1)^{X1+1}01{b}(1)^{Y1-1}{l}(0)^{2}10(1)^{2} % Hops: X1+6 Ones: 4 Pos: X1+2 Transition: complex(normal) 
+(1)^{X1+1}010{a}(1)^{Y1-2}{l}(0)^{2}10(1)^{2} % Hops: X1+7 Ones: 4 Pos: X1+3 Transition: complex(normal) 
+(1)^{X1+1}01{c}0{r}0(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+8 Ones: 4 Pos: X1+2 Transition: complex(normal) 
+(1)^{X1+1}0{d}1{r}(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+9 Ones: 4 Pos: X1+1 Transition: complex(normal) 
+(1)^{X1+1}{d}0{r}1(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+10 Ones: 4 Pos: X1 Transition: complex(acceleration) 
+(1)^{X1+2}{e}1{l}(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+11 Ones: 4 Pos: X1+1 Transition: complex(normal) 
+{e}(1)^{X1+2}{r}(0)^{3}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+12 Ones: 3 Pos: X1 Transition: complex(normal) 
+{e}0{r}(0)^{X1+5}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 2*X1+14 Ones: 3 Pos: -2 Transition: complex(acceleration) 
+% otter 1 verified (attempt 1) in 13 steps
+% Otter transition is Otter 1 (uni): (blank){e}0{r}(0)^{X1}(1)^{Y1} ++> {e}0{r}(0)^{X1+5*(Y1//3)}(1)^{Y1 mod 3} Found: 84 Diffs: diffs([],m(1,0),[m(1,5),m(1,-3),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [3] Mods [] in Y1//3*(2*X1+5*(Y1//3)+9) steps movement -2*(Y1//3) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,0,r,a),t(c,0,0,l,d),t(d,0,1,r,e),t(d,1,1,l,d),t(e,0,0,l,f),t(e,1,0,l,e),t(f,0,1,r,f),t(f,1,0,l,b)]
+% Otter found -- checking whether to apply it to config([],e,grp([0],1),r,[grp([0],2),grp([1],7),grp([0],2),grp([1],1),grp([0],1),grp([1],2)]) at 130 ... 
+% Otter applied to get to 130
+% Regression (uni) 85:{f}0{r}(0)^{3}(1)^{7}(0)^{2}10(1)^{2} -> +18:{f}0{r}(0)^{8}(1)^{4}(0)^{2}10(1)^{2} -> +28:{f}0{r}(0)^{13}1(0)^{2}10(1)^{2}
+% otter 2 proof attempt 1 ([]): {f}0{r}(0)^{X1}(1)^{Y1}(0)^{2}10(1)^{2} -->> {f}0{r}(0)^{X1+5}(1)^{Y1-3}(0)^{2}10(1)^{2} Progressors: 1, Regressors: 1
+{f}0{r}(0)^{X1}(1)^{Y1}(0)^{2}10(1)^{2} % Hops: 0 Ones: 3 Pos: 0 Transition: init 
+1{f}(0)^{X1}{l}(1)^{Y1}(0)^{2}10(1)^{2} % Hops: 1 Ones: 4 Pos: 1 Transition: complex(normal) 
+(1)^{X1+1}{f}(1)^{Y1}{l}(0)^{2}10(1)^{2} % Hops: X1+1 Ones: 3 Pos: X1+1 Transition: complex(acceleration) 
+{b}(1)^{X1+1}{r}0(1)^{Y1-1}(0)^{2}10(1)^{2} % Hops: X1+2 Ones: 3 Pos: X1 Transition: complex(normal) 
+(1)^{X1}0{a}0{l}(1)^{Y1-1}(0)^{2}10(1)^{2} % Hops: X1+3 Ones: 3 Pos: X1+1 Transition: complex(normal) 
+(1)^{X1}01{b}(1)^{Y1-1}{l}(0)^{2}10(1)^{2} % Hops: X1+4 Ones: 4 Pos: X1+2 Transition: complex(normal) 
+(1)^{X1}010{a}(1)^{Y1-2}{l}(0)^{2}10(1)^{2} % Hops: X1+5 Ones: 4 Pos: X1+3 Transition: complex(normal) 
+(1)^{X1}01{c}0{r}0(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+6 Ones: 4 Pos: X1+2 Transition: complex(normal) 
+(1)^{X1}0{d}1{r}(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+7 Ones: 4 Pos: X1+1 Transition: complex(normal) 
+(1)^{X1}{d}0{r}1(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+8 Ones: 4 Pos: X1 Transition: complex(acceleration) 
+(1)^{X1+1}{e}1{l}(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+9 Ones: 4 Pos: X1+1 Transition: complex(normal) 
+{e}(1)^{X1+1}{r}(0)^{3}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+10 Ones: 3 Pos: X1 Transition: complex(normal) 
+{e}0{r}(0)^{X1+4}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 2*X1+11 Ones: 3 Pos: -1 Transition: complex(acceleration) 
+{f}0{r}(0)^{X1+5}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 2*X1+12 Ones: 3 Pos: -2 Transition: complex(normal) 
+% otter 2 verified (attempt 1) in 13 steps
+% Otter transition is Otter 2 (uni): (blank){f}0{r}(0)^{X1}(1)^{Y1} ++> {f}0{r}(0)^{X1+5*(Y1//3)}(1)^{Y1 mod 3} Found: 85 Diffs: diffs([],m(1,0),[m(1,5),m(1,-3),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [3] Mods [] in Y1//3*(2*X1+5*(Y1//3)+7) steps movement -2*(Y1//3) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,0,r,a),t(c,0,0,l,d),t(d,0,1,r,e),t(d,1,1,l,d),t(e,0,0,l,f),t(e,1,0,l,e),t(f,0,1,r,f),t(f,1,0,l,b)]
+% Otter found -- checking whether to apply it to config([],f,grp([0],1),r,[grp([0],3),grp([1],7),grp([0],2),grp([1],1),grp([0],1),grp([1],2)]) at 131 ... 
+% Otter applied to get to 131
+% Regression (uni) 86:1{f}(0)^{3}{l}(1)^{7}(0)^{2}10(1)^{2} -> +18:1{f}(0)^{8}{l}(1)^{4}(0)^{2}10(1)^{2} -> +28:1{f}(0)^{13}{l}1(0)^{2}10(1)^{2}
+% otter 3 proof attempt 1 ([]): 1{f}(0)^{X1}{l}(1)^{Y1}(0)^{2}10(1)^{2} -->> 1{f}(0)^{X1+5}{l}(1)^{Y1-3}(0)^{2}10(1)^{2} Progressors: 1, Regressors: 1
+1{f}(0)^{X1}{l}(1)^{Y1}(0)^{2}10(1)^{2} % Hops: 0 Ones: 4 Pos: 0 Transition: init 
+(1)^{X1+1}{f}(1)^{Y1}{l}(0)^{2}10(1)^{2} % Hops: X1 Ones: 3 Pos: X1 Transition: complex(acceleration) 
+{b}(1)^{X1+1}{r}0(1)^{Y1-1}(0)^{2}10(1)^{2} % Hops: X1+1 Ones: 3 Pos: X1-1 Transition: complex(normal) 
+(1)^{X1}0{a}0{l}(1)^{Y1-1}(0)^{2}10(1)^{2} % Hops: X1+2 Ones: 3 Pos: X1 Transition: complex(normal) 
+(1)^{X1}01{b}(1)^{Y1-1}{l}(0)^{2}10(1)^{2} % Hops: X1+3 Ones: 4 Pos: X1+1 Transition: complex(normal) 
+(1)^{X1}010{a}(1)^{Y1-2}{l}(0)^{2}10(1)^{2} % Hops: X1+4 Ones: 4 Pos: X1+2 Transition: complex(normal) 
+(1)^{X1}01{c}0{r}0(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+5 Ones: 4 Pos: X1+1 Transition: complex(normal) 
+(1)^{X1}0{d}1{r}(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+6 Ones: 4 Pos: X1 Transition: complex(normal) 
+(1)^{X1}{d}0{r}1(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+7 Ones: 4 Pos: X1-1 Transition: complex(acceleration) 
+(1)^{X1+1}{e}1{l}(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+8 Ones: 4 Pos: X1 Transition: complex(normal) 
+{e}(1)^{X1+1}{r}(0)^{3}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+9 Ones: 3 Pos: X1-1 Transition: complex(normal) 
+{e}0{r}(0)^{X1+4}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 2*X1+10 Ones: 3 Pos: -2 Transition: complex(acceleration) 
+{f}0{r}(0)^{X1+5}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 2*X1+11 Ones: 3 Pos: -3 Transition: complex(normal) 
+1{f}(0)^{X1+5}{l}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 2*X1+12 Ones: 4 Pos: -2 Transition: complex(normal) 
+% otter 3 verified (attempt 1) in 13 steps
+% Otter transition is Otter 3 (uni): (blank)1{f}(0)^{X1}{l}(1)^{Y1} ++> 1{f}(0)^{X1+5*(Y1//3)}{l}(1)^{Y1 mod 3} Found: 86 Diffs: diffs([m(1,0)],m(1,5),[m(1,-3),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [3] Mods [] in Y1//3*(2*X1+5*(Y1//3)+7) steps movement -2*(Y1//3) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,0,r,a),t(c,0,0,l,d),t(d,0,1,r,e),t(d,1,1,l,d),t(e,0,0,l,f),t(e,1,0,l,e),t(f,0,1,r,f),t(f,1,0,l,b)]
+% Otter found -- checking whether to apply it to config([grp([1],1)],f,grp([0],3),l,[grp([1],7),grp([0],2),grp([1],1),grp([0],1),grp([1],2)]) at 132 ... 
+% Otter applied to get to 132
+% Regression (uni) 89:(1)^{4}{f}(1)^{7}{l}(0)^{2}10(1)^{2} -> +23:(1)^{9}{f}(1)^{4}{l}(0)^{2}10(1)^{2} -> +33:(1)^{14}{f}1{l}(0)^{2}10(1)^{2}
+% otter 4 proof attempt 1 ([]): (1)^{X1}{f}(1)^{Y1}{l}(0)^{2}10(1)^{2} -->> (1)^{X1+5}{f}(1)^{Y1-3}{l}(0)^{2}10(1)^{2} Progressors: 1, Regressors: 1
+(1)^{X1}{f}(1)^{Y1}{l}(0)^{2}10(1)^{2} % Hops: 0 Ones: 3 Pos: 0 Transition: init 
+{b}(1)^{X1}{r}0(1)^{Y1-1}(0)^{2}10(1)^{2} % Hops: 1 Ones: 3 Pos: -1 Transition: complex(normal) 
+(1)^{X1-1}0{a}0{l}(1)^{Y1-1}(0)^{2}10(1)^{2} % Hops: 2 Ones: 3 Pos: 0 Transition: complex(normal) 
+(1)^{X1-1}01{b}(1)^{Y1-1}{l}(0)^{2}10(1)^{2} % Hops: 3 Ones: 4 Pos: 1 Transition: complex(normal) 
+(1)^{X1-1}010{a}(1)^{Y1-2}{l}(0)^{2}10(1)^{2} % Hops: 4 Ones: 4 Pos: 2 Transition: complex(normal) 
+(1)^{X1-1}01{c}0{r}0(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 5 Ones: 4 Pos: 1 Transition: complex(normal) 
+(1)^{X1-1}0{d}1{r}(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 6 Ones: 4 Pos: 0 Transition: complex(normal) 
+(1)^{X1-1}{d}0{r}1(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 7 Ones: 4 Pos: -1 Transition: complex(acceleration) 
+(1)^{X1}{e}1{l}(0)^{2}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 8 Ones: 4 Pos: 0 Transition: complex(normal) 
+{e}(1)^{X1}{r}(0)^{3}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: 9 Ones: 3 Pos: -1 Transition: complex(normal) 
+{e}0{r}(0)^{X1+3}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+9 Ones: 3 Pos: -X1-1 Transition: complex(acceleration) 
+{f}0{r}(0)^{X1+4}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+10 Ones: 3 Pos: -X1-2 Transition: complex(normal) 
+1{f}(0)^{X1+4}{l}(1)^{Y1-3}(0)^{2}10(1)^{2} % Hops: X1+11 Ones: 4 Pos: -X1-1 Transition: complex(normal) 
+(1)^{X1+5}{f}(1)^{Y1-3}{l}(0)^{2}10(1)^{2} % Hops: 2*X1+15 Ones: 3 Pos: 3 Transition: complex(acceleration) 
+% otter 4 verified (attempt 1) in 13 steps
+% Otter transition is Otter 4 (uni): (blank)(1)^{X1}{f}(1)^{Y1}{l} ++> (1)^{X1+5*(Y1//3)}{f}(1)^{Y1 mod 3}{l} Found: 89 Diffs: diffs([m(1,5)],m(1,-3),[m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [1] Ys: [3] Mods [] in Y1//3*(2*X1+5*(Y1//3)+10) steps movement 3*(Y1//3) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,0,r,a),t(c,0,0,l,d),t(d,0,1,r,e),t(d,1,1,l,d),t(e,0,0,l,f),t(e,1,0,l,e),t(f,0,1,r,f),t(f,1,0,l,b)]
+% Otter found -- checking whether to apply it to config([grp([1],4)],f,grp([1],7),l,[grp([0],2),grp([1],1),grp([0],1),grp([1],2)]) at 145 ... 
+% Otter applied to get to 145
+% halts: Final configuration is (1)^{17485732}{z}0{l}1(0)^{7}1 Ones: 17485734 Hops: 95547257425490 Steps: 728
+% Otters: 4 Multilinear: 0 Unique Otters: 4 Otters Nested: 0 Otter Steps: 194 Otter Jumps: 194 Otter Proofs: [o(1,14),o(2,14),o(3,14),o(4,14)] Otter Diffs: [o(1,d(18,28)),o(2,d(18,28)),o(3,d(18,28)),o(4,d(23,33))] Flat: 0  Ocelots: 31 Ocelot Steps: 95547148585246 Ocelot Proofs: 0 Shape: (1)*{z}0{l}1(0)*1 Shape Size: 11  MaxProgs: 1 MaxRegs: 1 
+Applications Otter 1 times: 28, steps: 95547148585292
+Applications Otter 2 times: 1, steps: 46
+Applications Otter 3 times: 1, steps: 46
+Applications Otter 4 times: 1, steps: 56
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> a 1 l Steps: 1
+% Trans: a 1 r -> c 0 l Steps: 1
+% Trans: c 0 r -> d 0 l Steps: 1
+% Trans: d 0 r -> e 1 r Steps: 1
+% Trans: e 0 l -> f 0 l Steps: 1
+% Trans: f 1 r -> b 0 l Steps: 1
+% Trans: b 0 r -> a 1 l Steps: 1
+% Trans: a 0 r -> b 1 r Steps: 1
+% Trans: b 1 l -> a 0 r Steps: 1
+% Trans: d 1 r -> d 1 l Steps: 1
+% Trans: e 1 l -> e 0 l Steps: 1
+% Trans: e 1 r -> e 0 l Steps: 1
+% Trans: e 0 r -> f 0 l Steps: 1
+% Trans: f 0 r -> f 1 r Steps: 1
+% Trans: f 0 l -> f 1 r Steps: 1
+% Trans: f 1 l -> b 0 l Steps: 1
+% Trans: b 1 r -> a 0 r Steps: 1
+% Trans: a 1 l -> c 0 l Steps: 1
+% Trans: b 01 l -> a 11 l Steps: 1
+% Trans: a 01 l -> a 10 r Steps: 2
+% Trans: a 01 r -> d 00 l Steps: 2
+% Trans: d 01 r -> e 00 l Steps: 4
+% Trans: c 1 r -> z 1 r Steps: 1
+% No more transitions
+
+Otter 1 (uni): (blank){e}0{r}(0)^{X1}(1)^{Y1} ++> {e}0{r}(0)^{X1+5*(Y1//3)}(1)^{Y1 mod 3} Found: 84 Diffs: diffs([],m(1,0),[m(1,5),m(1,-3),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [3] Mods [] in Y1//3*(2*X1+5*(Y1//3)+9) steps movement -2*(Y1//3) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,0,r,a),t(c,0,0,l,d),t(d,0,1,r,e),t(d,1,1,l,d),t(e,0,0,l,f),t(e,1,0,l,e),t(f,0,1,r,f),t(f,1,0,l,b)]
+Otter 2 (uni): (blank){f}0{r}(0)^{X1}(1)^{Y1} ++> {f}0{r}(0)^{X1+5*(Y1//3)}(1)^{Y1 mod 3} Found: 85 Diffs: diffs([],m(1,0),[m(1,5),m(1,-3),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [3] Mods [] in Y1//3*(2*X1+5*(Y1//3)+7) steps movement -2*(Y1//3) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,0,r,a),t(c,0,0,l,d),t(d,0,1,r,e),t(d,1,1,l,d),t(e,0,0,l,f),t(e,1,0,l,e),t(f,0,1,r,f),t(f,1,0,l,b)]
+Otter 3 (uni): (blank)1{f}(0)^{X1}{l}(1)^{Y1} ++> 1{f}(0)^{X1+5*(Y1//3)}{l}(1)^{Y1 mod 3} Found: 86 Diffs: diffs([m(1,0)],m(1,5),[m(1,-3),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [3] Mods [] in Y1//3*(2*X1+5*(Y1//3)+7) steps movement -2*(Y1//3) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,0,r,a),t(c,0,0,l,d),t(d,0,1,r,e),t(d,1,1,l,d),t(e,0,0,l,f),t(e,1,0,l,e),t(f,0,1,r,f),t(f,1,0,l,b)]
+Otter 4 (uni): (blank)(1)^{X1}{f}(1)^{Y1}{l} ++> (1)^{X1+5*(Y1//3)}{f}(1)^{Y1 mod 3}{l} Found: 89 Diffs: diffs([m(1,5)],m(1,-3),[m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [1] Ys: [3] Mods [] in Y1//3*(2*X1+5*(Y1//3)+10) steps movement 3*(Y1//3) Trans: [t(a,0,1,r,b),t(a,1,0,l,c),t(b,1,0,r,a),t(c,0,0,l,d),t(d,0,1,r,e),t(d,1,1,l,d),t(e,0,0,l,f),t(e,1,0,l,e),t(f,0,1,r,f),t(f,1,0,l,b)]
+
+First otter detected starting at 84
+took 0.66 seconds

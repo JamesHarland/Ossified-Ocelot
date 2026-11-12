@@ -1,0 +1,44 @@
+% Regression (uni) 97:{a}(3)^{2}{r}1(4)^{10} -> +19:{a}(3)^{2}{r}(1)^{6}(4)^{8} -> +29:{a}(3)^{2}{r}(1)^{11}(4)^{6}
+% otter 1 proof attempt 1 ([]): {a}(3)^{2}{r}(1)^{X1}(4)^{Y1} -->> {a}(3)^{2}{r}(1)^{X1+5}(4)^{Y1-2} Progressors: 1, Regressors: 1
+{a}(3)^{2}{r}(1)^{X1}(4)^{Y1} % Hops: 0 Ones: 2 Pos: 0 Transition: init 
+{a}0{r}(1)^{X1+2}(4)^{Y1} % Hops: 2 Ones: 0 Pos: -2 Transition: complex(acceleration) 
+1{b}(1)^{X1+2}{l}(4)^{Y1} % Hops: 3 Ones: 1 Pos: -1 Transition: complex(normal) 
+1(3)^{X1+2}{b}(4)^{Y1}{l} % Hops: X1+5 Ones: 1 Pos: X1+1 Transition: complex(acceleration) 
+1(3)^{X1+3}{a}(4)^{Y1-1}{l} % Hops: X1+6 Ones: 1 Pos: X1+2 Transition: complex(normal) 
+1{a}(3)^{X1+3}{r}1(4)^{Y1-2} % Hops: X1+7 Ones: 2 Pos: X1+1 Transition: complex(normal) 
+{a}1{r}(1)^{X1+4}(4)^{Y1-2} % Hops: 2*X1+10 Ones: 1 Pos: -2 Transition: complex(acceleration) 
+{b}0{r}3(1)^{X1+4}(4)^{Y1-2} % Hops: 2*X1+11 Ones: 1 Pos: -3 Transition: complex(normal) 
+{a}0{r}23(1)^{X1+4}(4)^{Y1-2} % Hops: 2*X1+12 Ones: 2 Pos: -4 Transition: complex(normal) 
+1{b}2{l}3(1)^{X1+4}(4)^{Y1-2} % Hops: 2*X1+13 Ones: 3 Pos: -3 Transition: complex(normal) 
+{b}1{r}43(1)^{X1+4}(4)^{Y1-2} % Hops: 2*X1+14 Ones: 3 Pos: -4 Transition: complex(normal) 
+3{b}4{l}3(1)^{X1+4}(4)^{Y1-2} % Hops: 2*X1+15 Ones: 3 Pos: -3 Transition: complex(normal) 
+(3)^{2}{a}3{l}(1)^{X1+4}(4)^{Y1-2} % Hops: 2*X1+16 Ones: 3 Pos: -2 Transition: complex(normal) 
+{a}(3)^{2}{r}(1)^{X1+5}(4)^{Y1-2} % Hops: 2*X1+17 Ones: 2 Pos: -3 Transition: complex(normal) 
+% otter 1 verified (attempt 1) in 13 steps
+% Otter transition is Otter 1 (uni): (blank){a}(3)^{2}{r}(1)^{X1}(4)^{Y1} ++> {a}(3)^{2}{r}(1)^{X1+5*(Y1//2)}(4)^{Y1 mod 2} Found: 97 Diffs: diffs([],m(1,0),[m(1,5),m(1,-2)]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(2*X1+5*(Y1//2)+12) steps movement -3*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,3,l,b),t(a,3,1,l,a),t(a,4,1,l,a),t(b,0,2,l,a),t(b,1,3,r,b),t(b,2,4,l,b),t(b,4,3,r,a)]
+% Otter found -- checking whether to apply it to config([],a,grp([3],2),r,[grp([1],1),grp([4],10)]) at 145 ... 
+% Otter applied to get to 292
+% halts: Final configuration is 1(3)^{1957769}1{z}0{l} Ones: 1957771 Hops: 912594733606 Steps: 264
+% Otters: 1 Multilinear: 0 Unique Otters: 1 Otters Nested: 0 Otter Steps: 195 Otter Jumps: 195 Otter Proofs: [o(1,14)] Otter Diffs: [o(1,d(19,29))] Flat: 0  Ocelots: 13 Ocelot Steps: 912589873782 Ocelot Proofs: 0 Shape: 1(3)*1{z}0{l} Shape Size: 7  MaxProgs: 1 MaxRegs: 1 
+Applications Otter 1 times: 13, steps: 912589873977
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> a 2 l Steps: 1
+% Trans: a 1 r -> b 3 l Steps: 1
+% Trans: b 0 r -> a 2 l Steps: 1
+% Trans: a 0 r -> b 1 r Steps: 1
+% Trans: b 2 l -> b 4 l Steps: 1
+% Trans: b 1 r -> b 3 r Steps: 1
+% Trans: b 4 l -> a 3 r Steps: 1
+% Trans: a 3 l -> a 1 l Steps: 1
+% Trans: a 3 r -> a 1 l Steps: 1
+% Trans: b 1 l -> b 3 r Steps: 1
+% Trans: b 3 r -> b 4 l Steps: 1
+% Trans: a 4 l -> a 1 l Steps: 1
+% Trans: b 3 l -> b 4 l Steps: 1
+% Trans: a 2 l -> z 1 r Steps: 1
+% No more transitions
+
+Otter 1 (uni): (blank){a}(3)^{2}{r}(1)^{X1}(4)^{Y1} ++> {a}(3)^{2}{r}(1)^{X1+5*(Y1//2)}(4)^{Y1 mod 2} Found: 97 Diffs: diffs([],m(1,0),[m(1,5),m(1,-2)]) Mins Xs: [0] Ys: [2] Mods [] in Y1//2*(2*X1+5*(Y1//2)+12) steps movement -3*(Y1//2) Trans: [t(a,0,1,r,b),t(a,1,3,l,b),t(a,3,1,l,a),t(a,4,1,l,a),t(b,0,2,l,a),t(b,1,3,r,b),t(b,2,4,l,b),t(b,4,3,r,a)]
+
+First otter detected starting at 97
+took 0.08 seconds

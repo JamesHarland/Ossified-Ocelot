@@ -1,0 +1,202 @@
+% Regression (uni) 323:1201(2)^{2}(1)^{3}(0)^{7}1{b}(0)^{2}{r}012 -> +25:1201(2)^{2}(1)^{3}(0)^{6}1{b}(0)^{2}{r}0(2)^{2}12 -> +31:1201(2)^{2}(1)^{3}(0)^{5}1{b}(0)^{2}{r}0(2)^{4}12
+% otter 1 proof attempt 1 ([]): 1201(2)^{2}(1)^{3}(0)^{Y1}1{b}(0)^{2}{r}0(2)^{X1}12 -->> 1201(2)^{2}(1)^{3}(0)^{Y1-1}1{b}(0)^{2}{r}0(2)^{X1+2}12 Progressors: 1, Regressors: 1
+1201(2)^{2}(1)^{3}(0)^{Y1}1{b}(0)^{2}{r}0(2)^{X1}12 % Hops: 0 Ones: 11 Pos: 0 Transition: init 
+1201(2)^{2}(1)^{3}(0)^{Y1}1{a}0{r}20(2)^{X1}12 % Hops: 1 Ones: 12 Pos: -1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1}(1)^{2}{b}2{l}0(2)^{X1}12 % Hops: 2 Ones: 13 Pos: 0 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1}(1)^{3}{b}0{l}(2)^{X1}12 % Hops: 3 Ones: 13 Pos: 1 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1}{a}(1)^{3}{r}(2)^{X1+1}12 % Hops: 4 Ones: 13 Pos: 0 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}{a}(0)^{Y1}{r}(1)^{3}(2)^{X1+1}12 % Hops: 7 Ones: 13 Pos: -3 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1{b}(1)^{3}{l}(2)^{X1+1}12 % Hops: 8 Ones: 14 Pos: -2 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(2)^{X1+1}{l}12 % Hops: 11 Ones: 14 Pos: 1 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}{b}1{l}2 % Hops: X1+12 Ones: 14 Pos: X1+2 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}2{b}2{l} % Hops: X1+13 Ones: 14 Pos: X1+3 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}21{b}0{l} % Hops: X1+14 Ones: 14 Pos: X1+4 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}2{a}1{r}2 % Hops: X1+15 Ones: 15 Pos: X1+3 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}{a}2{r}12 % Hops: X1+16 Ones: 15 Pos: X1+2 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1+1}{r}212 % Hops: X1+17 Ones: 15 Pos: X1+1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1}{r}0212 % Hops: X1+18 Ones: 15 Pos: X1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-1}2{b}0{l}212 % Hops: X1+19 Ones: 16 Pos: X1+1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-1}{a}2{r}(2)^{2}12 % Hops: X1+20 Ones: 17 Pos: X1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-1}{r}(2)^{3}12 % Hops: X1+21 Ones: 17 Pos: X1-1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-2}{r}0(2)^{3}12 % Hops: X1+22 Ones: 17 Pos: X1-2 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-3}2{b}0{l}(2)^{3}12 % Hops: X1+23 Ones: 18 Pos: X1-1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-3}{a}2{r}(2)^{4}12 % Hops: X1+24 Ones: 19 Pos: X1-2 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-3}{r}(2)^{5}12 % Hops: X1+25 Ones: 19 Pos: X1-3 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-4}{r}0(2)^{5}12 % Hops: X1+26 Ones: 19 Pos: X1-4 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-5}2{b}0{l}(2)^{5}12 % Hops: X1+27 Ones: 20 Pos: X1-3 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-5}{a}2{r}(2)^{6}12 % Hops: X1+28 Ones: 21 Pos: X1-4 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-5}{r}(2)^{7}12 % Hops: X1+29 Ones: 21 Pos: X1-5 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-6}{r}0(2)^{7}12 % Hops: X1+30 Ones: 21 Pos: X1-6 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-7}2{b}0{l}(2)^{7}12 % Hops: X1+31 Ones: 22 Pos: X1-5 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-7}{a}2{r}(2)^{8}12 % Hops: X1+32 Ones: 23 Pos: X1-6 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-7}{r}(2)^{9}12 % Hops: X1+33 Ones: 23 Pos: X1-7 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-8}{r}0(2)^{9}12 % Hops: X1+34 Ones: 23 Pos: X1-8 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-9}2{b}0{l}(2)^{9}12 % Hops: X1+35 Ones: 24 Pos: X1-7 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-9}{a}2{r}(2)^{10}12 % Hops: X1+36 Ones: 25 Pos: X1-8 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-9}{r}(2)^{11}12 % Hops: X1+37 Ones: 25 Pos: X1-9 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-10}{r}0(2)^{11}12 % Hops: X1+38 Ones: 25 Pos: X1-10 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-11}2{b}0{l}(2)^{11}12 % Hops: X1+39 Ones: 26 Pos: X1-9 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-11}{a}2{r}(2)^{12}12 % Hops: X1+40 Ones: 27 Pos: X1-10 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-11}{r}(2)^{13}12 % Hops: X1+41 Ones: 27 Pos: X1-11 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-12}{r}0(2)^{13}12 % Hops: X1+42 Ones: 27 Pos: X1-12 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-13}2{b}0{l}(2)^{13}12 % Hops: X1+43 Ones: 28 Pos: X1-11 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-13}{a}2{r}(2)^{14}12 % Hops: X1+44 Ones: 29 Pos: X1-12 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-13}{r}(2)^{15}12 % Hops: X1+45 Ones: 29 Pos: X1-13 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-14}{r}0(2)^{15}12 % Hops: X1+46 Ones: 29 Pos: X1-14 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-15}2{b}0{l}(2)^{15}12 % Hops: X1+47 Ones: 30 Pos: X1-13 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-15}{a}2{r}(2)^{16}12 % Hops: X1+48 Ones: 31 Pos: X1-14 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-15}{r}(2)^{17}12 % Hops: X1+49 Ones: 31 Pos: X1-15 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-16}{r}0(2)^{17}12 % Hops: X1+50 Ones: 31 Pos: X1-16 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-17}2{b}0{l}(2)^{17}12 % Hops: X1+51 Ones: 32 Pos: X1-15 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-17}{a}2{r}(2)^{18}12 % Hops: X1+52 Ones: 33 Pos: X1-16 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-17}{r}(2)^{19}12 % Hops: X1+53 Ones: 33 Pos: X1-17 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-18}{r}0(2)^{19}12 % Hops: X1+54 Ones: 33 Pos: X1-18 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-19}2{b}0{l}(2)^{19}12 % Hops: X1+55 Ones: 34 Pos: X1-17 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-19}{a}2{r}(2)^{20}12 % Hops: X1+56 Ones: 35 Pos: X1-18 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-19}{r}(2)^{21}12 % Hops: X1+57 Ones: 35 Pos: X1-19 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-20}{r}0(2)^{21}12 % Hops: X1+58 Ones: 35 Pos: X1-20 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-21}2{b}0{l}(2)^{21}12 % Hops: X1+59 Ones: 36 Pos: X1-19 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-21}{a}2{r}(2)^{22}12 % Hops: X1+60 Ones: 37 Pos: X1-20 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-21}{r}(2)^{23}12 % Hops: X1+61 Ones: 37 Pos: X1-21 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-22}{r}0(2)^{23}12 % Hops: X1+62 Ones: 37 Pos: X1-22 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-23}2{b}0{l}(2)^{23}12 % Hops: X1+63 Ones: 38 Pos: X1-21 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-23}{a}2{r}(2)^{24}12 % Hops: X1+64 Ones: 39 Pos: X1-22 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-23}{r}(2)^{25}12 % Hops: X1+65 Ones: 39 Pos: X1-23 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-24}{r}0(2)^{25}12 % Hops: X1+66 Ones: 39 Pos: X1-24 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-25}2{b}0{l}(2)^{25}12 % Hops: X1+67 Ones: 40 Pos: X1-23 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-25}{a}2{r}(2)^{26}12 % Hops: X1+68 Ones: 41 Pos: X1-24 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-25}{r}(2)^{27}12 % Hops: X1+69 Ones: 41 Pos: X1-25 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-26}{r}0(2)^{27}12 % Hops: X1+70 Ones: 41 Pos: X1-26 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-27}2{b}0{l}(2)^{27}12 % Hops: X1+71 Ones: 42 Pos: X1-25 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-27}{a}2{r}(2)^{28}12 % Hops: X1+72 Ones: 43 Pos: X1-26 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-27}{r}(2)^{29}12 % Hops: X1+73 Ones: 43 Pos: X1-27 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-28}{r}0(2)^{29}12 % Hops: X1+74 Ones: 43 Pos: X1-28 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-29}2{b}0{l}(2)^{29}12 % Hops: X1+75 Ones: 44 Pos: X1-27 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-29}{a}2{r}(2)^{30}12 % Hops: X1+76 Ones: 45 Pos: X1-28 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-29}{r}(2)^{31}12 % Hops: X1+77 Ones: 45 Pos: X1-29 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-30}{r}0(2)^{31}12 % Hops: X1+78 Ones: 45 Pos: X1-30 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-31}2{b}0{l}(2)^{31}12 % Hops: X1+79 Ones: 46 Pos: X1-29 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-31}{a}2{r}(2)^{32}12 % Hops: X1+80 Ones: 47 Pos: X1-30 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-31}{r}(2)^{33}12 % Hops: X1+81 Ones: 47 Pos: X1-31 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-32}{r}0(2)^{33}12 % Hops: X1+82 Ones: 47 Pos: X1-32 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-33}2{b}0{l}(2)^{33}12 % Hops: X1+83 Ones: 48 Pos: X1-31 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-33}{a}2{r}(2)^{34}12 % Hops: X1+84 Ones: 49 Pos: X1-32 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-33}{r}(2)^{35}12 % Hops: X1+85 Ones: 49 Pos: X1-33 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-34}{r}0(2)^{35}12 % Hops: X1+86 Ones: 49 Pos: X1-34 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-35}2{b}0{l}(2)^{35}12 % Hops: X1+87 Ones: 50 Pos: X1-33 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-35}{a}2{r}(2)^{36}12 % Hops: X1+88 Ones: 51 Pos: X1-34 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-35}{r}(2)^{37}12 % Hops: X1+89 Ones: 51 Pos: X1-35 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-36}{r}0(2)^{37}12 % Hops: X1+90 Ones: 51 Pos: X1-36 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-37}2{b}0{l}(2)^{37}12 % Hops: X1+91 Ones: 52 Pos: X1-35 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-37}{a}2{r}(2)^{38}12 % Hops: X1+92 Ones: 53 Pos: X1-36 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-37}{r}(2)^{39}12 % Hops: X1+93 Ones: 53 Pos: X1-37 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-38}{r}0(2)^{39}12 % Hops: X1+94 Ones: 53 Pos: X1-38 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-39}2{b}0{l}(2)^{39}12 % Hops: X1+95 Ones: 54 Pos: X1-37 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-39}{a}2{r}(2)^{40}12 % Hops: X1+96 Ones: 55 Pos: X1-38 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-39}{r}(2)^{41}12 % Hops: X1+97 Ones: 55 Pos: X1-39 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-40}{r}0(2)^{41}12 % Hops: X1+98 Ones: 55 Pos: X1-40 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-41}2{b}0{l}(2)^{41}12 % Hops: X1+99 Ones: 56 Pos: X1-39 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-41}{a}2{r}(2)^{42}12 % Hops: X1+100 Ones: 57 Pos: X1-40 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1-41}{r}(2)^{43}12 % Hops: X1+101 Ones: 57 Pos: X1-41 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(1)^{X1-42}{r}0(2)^{43}12 % Hops: X1+102 Ones: 57 Pos: X1-42 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-43}2{b}0{l}(2)^{43}12 % Hops: X1+103 Ones: 58 Pos: X1-41 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1-43}{a}2{r}(2)^{44}12 % Hops: X1+104 Ones: 59 Pos: X1-42 Transition: complex(normal) 
+% otter 1 abandoned (going_steps(+(_,104))) due to bound of 100 steps being exceeded (attempt 1)
+% otter 1 proof attempt 2 ([accel]): 1201(2)^{2}(1)^{3}(0)^{Y1}1{b}(0)^{2}{r}0(2)^{X1}12 -->> 1201(2)^{2}(1)^{3}(0)^{Y1-1}1{b}(0)^{2}{r}0(2)^{X1+2}12 Progressors: 1, Regressors: 1
+1201(2)^{2}(1)^{3}(0)^{Y1}1{b}(0)^{2}{r}0(2)^{X1}12 % Hops: 0 Ones: 11 Pos: 0 Transition: init 
+1201(2)^{2}(1)^{3}(0)^{Y1}1{a}0{r}20(2)^{X1}12 % Hops: 1 Ones: 12 Pos: -1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1}(1)^{2}{b}2{l}0(2)^{X1}12 % Hops: 2 Ones: 13 Pos: 0 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1}(1)^{3}{b}0{l}(2)^{X1}12 % Hops: 3 Ones: 13 Pos: 1 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1}{a}(1)^{3}{r}(2)^{X1+1}12 % Hops: 4 Ones: 13 Pos: 0 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}{a}(0)^{Y1}{r}(1)^{3}(2)^{X1+1}12 % Hops: 7 Ones: 13 Pos: -3 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1{b}(1)^{3}{l}(2)^{X1+1}12 % Hops: 8 Ones: 14 Pos: -2 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{b}(2)^{X1+1}{l}12 % Hops: 11 Ones: 14 Pos: 1 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}{b}1{l}2 % Hops: X1+12 Ones: 14 Pos: X1+2 Transition: expansion(1) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}2{b}2{l} % Hops: X1+13 Ones: 14 Pos: X1+3 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}21{b}0{l} % Hops: X1+14 Ones: 14 Pos: X1+4 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}2{a}1{r}2 % Hops: X1+15 Ones: 15 Pos: X1+3 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}(1)^{X1+1}{a}2{r}12 % Hops: X1+16 Ones: 15 Pos: X1+2 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{X1+1}{r}212 % Hops: X1+17 Ones: 15 Pos: X1+1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}(1)^{(X1+1)mod 2}{r}(2)^{X1-(X1+1)mod 2+2}12 % Hops: X1+2*(X1+1-(X1+1)mod 2)+17 Ones: 14 Pos: X1-(X1+1-(X1+1)mod 2)+1 Transition: expansion(2) 
+% Old Hops rewritten to NewHops: from _17286+2*(_17286+1-(_17286+1)mod 2)+17 to 3*_17286+17 with NewMods [mod(X1,2,0)] and Names [Y1=_17154,X1=_17286]
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{3}{c}1{r}(2)^{X1+1}12 % Hops: 3*X1+17 Ones: 15 Pos: 1 Transition: modulus 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1{b}(2)^{3}{r}0(2)^{X1+1}12 % Hops: 3*X1+18 Ones: 14 Pos: 0 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{2}1{b}0{l}(2)^{X1+1}12 % Hops: 3*X1+19 Ones: 14 Pos: 1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(2)^{2}{a}1{r}(2)^{X1+2}12 % Hops: 3*X1+20 Ones: 14 Pos: 0 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1{a}(2)^{2}{r}1(2)^{X1+2}12 % Hops: 3*X1+21 Ones: 14 Pos: -1 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1{c}2{r}21(2)^{X1+2}12 % Hops: 3*X1+22 Ones: 14 Pos: -2 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}10{c}2{l}1(2)^{X1+2}12 % Hops: 3*X1+23 Ones: 13 Pos: -1 Transition: complex(normal) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1(0)^{2}{c}1{l}(2)^{X1+2}12 % Hops: 3*X1+24 Ones: 12 Pos: 0 Transition: complex(acceleration) 
+1201(2)^{2}(1)^{3}(0)^{Y1-1}1{b}(0)^{2}{r}0(2)^{X1+2}12 % Hops: 3*X1+25 Ones: 11 Pos: -1 Transition: complex(normal) 
+% otter 1 verified (attempt 2) in 22 steps
+% Otter transition is Otter 1 (uni): (0)^{Y1}1{b}(0)^{2}{r}0(2)^{X1}12(blank) ++> 1{b}(0)^{2}{r}0(2)^{X1+2*Y1}12 Found: 323 Diffs: diffs([m(1,0),m(1,-1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,0),[m(1,0),m(1,2),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [mod(X1,2,0)] in Y1*(3*X1+3*Y1+22) steps movement -1*Y1 Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(a,2,2,l,c),t(b,0,2,l,a),t(b,1,2,r,b),t(b,2,1,r,b),t(c,1,0,l,b),t(c,2,0,r,c)]
+% Otter found -- checking whether to apply it to config([grp([1],1),grp([0],7),grp([1],3),grp([2],2),grp([1],1),grp([0],1),grp([2],1),grp([1],1)],b,grp([0],2),r,[grp([0],1),grp([1],1),grp([2],1)]) at 379 ... 
+% Otter applied to get to 624
+% halts: Final configuration is 1(2)^{2}(1)^{2}(2)^{2}1(2)^{2}1(2)^{3}(1)^{2}(2)^{2}1(2)^{2}1(2)^{3}(1)^{2}(0)^{5}1{z}2{l}1(2)^{4}112(211)^{3}2021(2)^{2}(1)^{2}(2)^{21264889}12 Ones: 21264944 Hops: 452196003014837 Steps: 4994
+% Otters: 1 Multilinear: 0 Unique Otters: 1 Otters Nested: 0 Otter Steps: 301 Otter Jumps: 301 Otter Proofs: [o(1,23)] Otter Diffs: [o(1,d(25,31))] Flat: 0  Ocelots: 21 Ocelot Steps: 452195755771728 Ocelot Proofs: 0 Shape: 1(2)^{2}(1)^{2}(2)^{2}1(2)^{2}1(2)^{3}(1)^{2}(2)^{2}1(2)^{2}1(2)^{3}(1)^{2}(0)*1{z}2{l}1(2)*112(211)^{3}2021(2)^{2}(1)^{2}(2)*12 Shape Size: 64  MaxProgs: 1 MaxRegs: 1 
+Applications Otter 1 times: 21, steps: 452195755772029
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> a 2 l Steps: 1
+% Trans: a 1 r -> a 1 l Steps: 1
+% Trans: a 0 r -> b 1 r Steps: 1
+% Trans: b 1 l -> b 2 r Steps: 1
+% Trans: b 2 l -> b 1 r Steps: 1
+% Trans: a 2 r -> c 2 l Steps: 1
+% Trans: c 1 r -> b 0 l Steps: 1
+% Trans: b 0 r -> a 2 l Steps: 1
+% Trans: b 1 r -> b 2 r Steps: 1
+% Trans: c 2 r -> c 0 r Steps: 1
+% Trans: c 2 l -> c 0 r Steps: 1
+% Trans: c 1 l -> b 0 l Steps: 1
+% Trans: b 2 r -> b 1 r Steps: 1
+% Trans: c 11 r -> c 22 l Steps: 4
+% Trans: a 221 r -> a 112 l Steps: 11
+% Trans: b 112 l -> b 221 r Steps: 3
+% Trans: c 221 r -> c 212 l Steps: 5
+% Trans: c 212 l -> a 202 l Steps: 3
+% Trans: b 02 l -> a 22 l Steps: 1
+% Trans: b 12 l -> b 21 r Steps: 2
+% Trans: c 122 r -> c 120 r Steps: 1
+% Trans: a 120 r -> b 121 r Steps: 1
+% Trans: a 121 r -> b 021 l Steps: 3
+% Trans: b 122 r -> b 121 r Steps: 1
+% Trans: b 021 l -> a 221 l Steps: 1
+% Trans: b 21 l -> b 12 r Steps: 2
+% Trans: a 12 r -> b 02 l Steps: 2
+% Trans: b 12 r -> b 11 r Steps: 1
+% Trans: a 21 r -> c 21 l Steps: 2
+% Trans: c 21 r -> a 12 l Steps: 4
+% Trans: b 21 r -> b 22 r Steps: 1
+% Trans: b 1121 l -> b 2212 r Steps: 4
+% Trans: c 2212 r -> c 2210 r Steps: 1
+% Trans: c 12 l -> b 02 l Steps: 1
+% Trans: a 2210 r -> b 2211 r Steps: 1
+% Trans: b 2112 l -> b 1221 r Steps: 4
+% Trans: a 2211 r -> a 1121 l Steps: 12
+% Trans: c 2111 l -> a 2011 l Steps: 3
+% Trans: b 011 l -> a 211 l Steps: 1
+% Trans: b 121 r -> b 122 r Steps: 1
+% Trans: a 122 r -> c 100 r Steps: 3
+% Trans: c 211 r -> c 000 r Steps: 7
+% Trans: a 211 r -> c 211 l Steps: 3
+% Trans: c 211 l -> a 201 l Steps: 3
+% Trans: b 01 l -> a 21 l Steps: 1
+% Trans: b 121 l -> b 212 r Steps: 3
+% Trans: a 212 r -> a 122 l Steps: 5
+% Trans: b 212 l -> b 121 r Steps: 3
+% Trans: c 112 r -> c 110 r Steps: 1
+% Trans: a 112 r -> c 222 l Steps: 5
+% Trans: a 110 r -> b 111 r Steps: 1
+% Trans: c 12 r -> c 10 r Steps: 1
+% Trans: a 10 r -> b 11 r Steps: 1
+% Trans: b 212 r -> b 211 r Steps: 1
+% Trans: c 212 r -> c 210 r Steps: 1
+% Trans: a 210 r -> b 211 r Steps: 1
+% Trans: b 100 r -> b 111 r Steps: 3
+% Trans: c 0 l -> z 1 r Steps: 1
+% No more transitions
+
+Otter 1 (uni): (0)^{Y1}1{b}(0)^{2}{r}0(2)^{X1}12(blank) ++> 1{b}(0)^{2}{r}0(2)^{X1+2*Y1}12 Found: 323 Diffs: diffs([m(1,0),m(1,-1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,0),[m(1,0),m(1,2),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [mod(X1,2,0)] in Y1*(3*X1+3*Y1+22) steps movement -1*Y1 Trans: [t(a,0,1,r,b),t(a,1,1,l,a),t(a,2,2,l,c),t(b,0,2,l,a),t(b,1,2,r,b),t(b,2,1,r,b),t(c,1,0,l,b),t(c,2,0,r,c)]
+
+First otter detected starting at 323
+took 47.42 seconds

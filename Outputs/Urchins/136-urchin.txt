@@ -1,0 +1,134 @@
+% Regression (uni) 165413:12(4)^{399}242322(4)^{2}{b}3{l}(1)^{3}434(1)^{3}41(4)^{2}3 -> +3:12(4)^{399}242322(4)^{2}2{b}3{l}(1)^{2}434(1)^{3}41(4)^{2}3 -> +3:12(4)^{399}242322(4)^{2}(2)^{2}{b}3{l}1434(1)^{3}41(4)^{2}3
+% otter 1 proof attempt 1 ([]): 12(4)^{399}242322(4)^{2}(2)^{X1}{b}3{l}(1)^{Y1}434(1)^{3}41(4)^{2}3 -->> 12(4)^{399}242322(4)^{2}(2)^{X1+1}{b}3{l}(1)^{Y1-1}434(1)^{3}41(4)^{2}3 Progressors: 1, Regressors: 1
+12(4)^{399}242322(4)^{2}(2)^{X1}{b}3{l}(1)^{Y1}434(1)^{3}41(4)^{2}3 % Hops: 0 Ones: 421 Pos: 0 Transition: init 
+12(4)^{399}242322(4)^{2}(2)^{X1}3{a}(1)^{Y1}{l}434(1)^{3}41(4)^{2}3 % Hops: 1 Ones: 421 Pos: 1 Transition: complex(normal) 
+12(4)^{399}242322(4)^{2}(2)^{X1}{a}3{r}3(1)^{Y1-1}434(1)^{3}41(4)^{2}3 % Hops: 2 Ones: 422 Pos: 0 Transition: complex(normal) 
+12(4)^{399}242322(4)^{2}(2)^{X1+1}{b}3{l}(1)^{Y1-1}434(1)^{3}41(4)^{2}3 % Hops: 3 Ones: 421 Pos: 1 Transition: complex(normal) 
+% otter 1 verified (attempt 1) in 3 steps
+% Otter transition is Otter 1 (uni): (2)^{X1}{b}3{l}(1)^{Y1} ++> (2)^{X1+Y1}{b}3{l} Found: 165413 Diffs: diffs([m(1,1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,0),[m(1,-1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 3*Y1 steps movement 1*Y1 Trans: [t(a,1,3,l,a),t(a,3,2,r,b),t(b,3,3,r,a)]
+% Otter found -- checking whether to apply it to config([grp([4],2),grp([2],1),grp([3,2],1),grp([2],1),grp([4],1),grp([2],1),grp([4],399),grp([2],1),grp([1],1)],b,grp([3],1),l,[grp([1],3),grp([4,3],1),grp([4],1),grp([1],3),grp([4],1),grp([1],1),grp([4],2),grp([3],1)]) at 165419 ... 
+% Otter applied to get to 165422
+% Regression (uni) 8742902:12(4)^{2949}(2)^{3}4323(2)^{4}4232{b}13{l}(43)^{3}3143 -> +4:12(4)^{2949}(2)^{3}4323(2)^{4}423242{b}13{l}(43)^{2}3143 -> +4:12(4)^{2949}(2)^{3}4323(2)^{4}4232(42)^{2}{b}13{l}433143
+% otter 2 proof attempt 1 ([]): 12(4)^{2949}(2)^{3}4323(2)^{4}4232(42)^{X1}{b}13{l}(43)^{Y1}3143 -->> 12(4)^{2949}(2)^{3}4323(2)^{4}4232(42)^{X1+1}{b}13{l}(43)^{Y1-1}3143 Progressors: 1, Regressors: 1
+12(4)^{2949}(2)^{3}4323(2)^{4}4232(42)^{X1}{b}13{l}(43)^{Y1}3143 % Hops: 0 Ones: 2972 Pos: 0 Transition: init 
+12(4)^{2949}(2)^{3}4323(2)^{4}4232(42)^{X1}43{a}(43)^{Y1}{l}3143 % Hops: 2 Ones: 2972 Pos: 2 Transition: complex(normal) 
+12(4)^{2949}(2)^{3}4323(2)^{4}4232(42)^{X1}{a}43{r}13(43)^{Y1-1}3143 % Hops: 3 Ones: 2974 Pos: 1 Transition: complex(normal) 
+12(4)^{2949}(2)^{3}4323(2)^{4}4232(42)^{X1+1}{b}13{l}(43)^{Y1-1}3143 % Hops: 4 Ones: 2972 Pos: 2 Transition: complex(normal) 
+% otter 2 verified (attempt 1) in 3 steps
+% Otter transition is Otter 2 (uni): (42)^{X1}{b}13{l}(43)^{Y1} ++> (42)^{X1+Y1}{b}13{l} Found: 8742902 Diffs: diffs([m(1,1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,0),[m(1,-1),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 4*Y1 steps movement 2*Y1 Trans: [t(a,3,2,r,b),t(a,4,1,l,a),t(b,1,4,r,b),t(b,3,3,r,a)]
+% Otter found -- checking whether to apply it to config([grp([2],1),grp([3],1),grp([4,2],1),grp([2],4),grp([3],1),grp([3,2],1),grp([4],1),grp([2],3),grp([4],2949),grp([2],1),grp([1],1)],b,grp([1,3],1),l,[grp([4,3],3),grp([3],1),grp([1],1),grp([4],1),grp([3],1)]) at 8742910 ... 
+% Otter applied to get to 8742914
+% going_steps: Final configuration is 12(4)^{6571}2(4)^{2}3{a}2{r}3431141(434)^{3}43(1)^{3}4141(3)^{2} Ones: 6605 Hops: 43281449 Steps: 100000
+% Otters: 2 Multilinear: 0 Unique Otters: 2 Otters Nested: 0 Otter Steps: 21 Otter Jumps: 21 Otter Proofs: [o(1,4),o(2,4)] Otter Diffs: [o(1,d(3,3)),o(2,d(4,4))] Flat: 2  Ocelots: 2334 Ocelot Steps: 9170 Ocelot Proofs: 0 Shape: 12(4)*2(4)^{2}3{a}2{r}3431141(434)^{3}43(1)^{3}4141(3)^{2} Shape Size: 38  MaxProgs: 1 MaxRegs: 1 
+Applications Otter 1 times: 2313, steps: 9099
+Applications Otter 2 times: 21, steps: 92
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> a 2 l Steps: 1
+% Trans: a 1 r -> a 3 l Steps: 1
+% Trans: a 0 r -> b 1 r Steps: 1
+% Trans: b 3 l -> a 3 r Steps: 1
+% Trans: a 2 l -> a 4 l Steps: 1
+% Trans: a 3 r -> b 2 r Steps: 1
+% Trans: b 4 l -> a 3 l Steps: 1
+% Trans: a 2 r -> a 4 l Steps: 1
+% Trans: a 4 l -> a 1 l Steps: 1
+% Trans: b 1 l -> b 4 r Steps: 1
+% Trans: a 4 r -> a 1 l Steps: 1
+% Trans: a 1 l -> a 3 l Steps: 1
+% Trans: a 3 l -> b 2 r Steps: 1
+% Trans: b 33 l -> b 32 r Steps: 2
+% Trans: a 23 r -> b 22 r Steps: 1
+% Trans: a 32 r -> a 43 l Steps: 4
+% Trans: b 43 l -> a 33 l Steps: 1
+% Trans: a 43 l -> a 13 l Steps: 1
+% Trans: b 13 l -> a 43 r Steps: 2
+% Trans: a 43 r -> b 42 r Steps: 1
+% Trans: a 42 r -> a 14 l Steps: 2
+% Trans: b 14 l -> a 13 l Steps: 3
+% Trans: a 13 l -> a 33 l Steps: 1
+% Trans: a 14 l -> a 34 l Steps: 1
+% Trans: b 34 l -> b 24 r Steps: 4
+% Trans: a 232 r -> a 443 l Steps: 5
+% Trans: b 443 l -> a 343 l Steps: 1
+% Trans: a 343 l -> a 433 l Steps: 3
+% Trans: b 433 l -> a 333 l Steps: 1
+% Trans: a 443 l -> a 143 l Steps: 1
+% Trans: b 143 l -> a 133 l Steps: 3
+% Trans: b 133 l -> b 432 r Steps: 3
+% Trans: a 432 r -> a 143 l Steps: 5
+% Trans: a 133 l -> a 333 l Steps: 1
+% Trans: a 33 l -> a 23 r Steps: 2
+% Trans: a 34 l -> a 43 l Steps: 3
+% Trans: b 41 l -> a 31 l Steps: 1
+% Trans: b 4133 l -> a 3133 l Steps: 1
+% Trans: b 3133 l -> a 2323 r Steps: 6
+% Trans: a 4133 l -> a 1133 l Steps: 1
+% Trans: b 1133 l -> b 4432 r Steps: 4
+% Trans: a 4432 r -> a 1143 l Steps: 6
+% Trans: b 1143 l -> a 1133 l Steps: 5
+% Trans: a 1133 l -> a 3133 l Steps: 1
+% Trans: a 3133 l -> b 2432 r Steps: 4
+% Trans: a 2432 r -> a 4143 l Steps: 6
+% Trans: b 4143 l -> a 3143 l Steps: 1
+% Trans: a 143 l -> a 343 l Steps: 1
+% Trans: b 343 l -> a 243 r Steps: 5
+% Trans: a 243 r -> b 242 r Steps: 1
+% Trans: a 242 r -> a 414 l Steps: 3
+% Trans: a 414 l -> a 114 l Steps: 1
+% Trans: b 114 l -> a 113 l Steps: 5
+% Trans: b 113 l -> a 443 r Steps: 3
+% Trans: a 443 r -> b 442 r Steps: 1
+% Trans: a 442 r -> a 114 l Steps: 3
+% Trans: a 24 r -> a 41 l Steps: 2
+% Trans: a 41 l -> a 11 l Steps: 1
+% Trans: b 31 l -> a 23 r Steps: 4
+% Trans: b 311 l -> a 223 r Steps: 7
+% Trans: a 311 l -> b 244 r Steps: 3
+% Trans: a 223 r -> b 222 r Steps: 1
+% Trans: a 31 l -> b 24 r Steps: 2
+% Trans: b 341 l -> b 244 r Steps: 5
+% Trans: a 244 r -> a 411 l Steps: 3
+% Trans: b 411 l -> a 311 l Steps: 1
+% Trans: b 31314 l -> a 44313 l Steps: 13
+% Trans: b 44313 l -> a 34313 l Steps: 1
+% Trans: b 34313 l -> b 24232 r Steps: 9
+% Trans: a 24232 r -> a 41443 l Steps: 7
+% Trans: b 41443 l -> a 31443 l Steps: 1
+% Trans: b 31443 l -> a 44133 l Steps: 11
+% Trans: b 44133 l -> a 34133 l Steps: 1
+% Trans: b 34133 l -> b 24432 r Steps: 7
+% Trans: a 24432 r -> a 41143 l Steps: 7
+% Trans: b 41143 l -> a 31143 l Steps: 1
+% Trans: b 31143 l -> a 22243 r Steps: 11
+% Trans: a 34313 l -> a 43313 l Steps: 3
+% Trans: a 22243 r -> b 22242 r Steps: 1
+% Trans: b 43313 l -> a 33313 l Steps: 1
+% Trans: a 22242 r -> a 44414 l Steps: 5
+% Trans: a 1314 l -> a 3314 l Steps: 1
+% Trans: b 3314 l -> a 4313 l Steps: 9
+% Trans: b 313 l -> b 232 r Steps: 5
+% Trans: a 322 r -> a 434 l Steps: 5
+% Trans: b 344 l -> a 413 l Steps: 7
+% Trans: a 344 l -> a 434 l Steps: 3
+% Trans: b 434 l -> a 334 l Steps: 1
+% Trans: a 331 l -> a 223 r Steps: 5
+% Trans: a 413 l -> a 113 l Steps: 1
+% Trans: a 113 l -> a 313 l Steps: 1
+% Trans: b 334 l -> a 433 l Steps: 7
+% Trans: b 413 l -> a 313 l Steps: 1
+% Trans: a 313 l -> a 243 r Steps: 3
+% Trans: b 414 l -> a 314 l Steps: 1
+% Trans: a 314 l -> a 413 l Steps: 5
+% Trans: b 141 l -> a 131 l Steps: 3
+% Trans: b 131 l -> a 423 r Steps: 5
+% Trans: a 141 l -> a 341 l Steps: 1
+% Trans: a 423 r -> b 422 r Steps: 1
+% Trans: a 114 l -> a 314 l Steps: 1
+% Trans: b 314 l -> b 224 r Steps: 7
+% No more transitions
+
+Otter 1 (uni): (2)^{X1}{b}3{l}(1)^{Y1} ++> (2)^{X1+Y1}{b}3{l} Found: 165413 Diffs: diffs([m(1,1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,0),[m(1,-1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 3*Y1 steps movement 1*Y1 Trans: [t(a,1,3,l,a),t(a,3,2,r,b),t(b,3,3,r,a)]
+Otter 2 (uni): (42)^{X1}{b}13{l}(43)^{Y1} ++> (42)^{X1+Y1}{b}13{l} Found: 8742902 Diffs: diffs([m(1,1),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0),m(1,0)],m(1,0),[m(1,-1),m(1,0),m(1,0),m(1,0),m(1,0)]) Mins Xs: [0] Ys: [1] Mods [] in 4*Y1 steps movement 2*Y1 Trans: [t(a,3,2,r,b),t(a,4,1,l,a),t(b,1,4,r,b),t(b,3,3,r,a)]
+
+First otter detected starting at 165413
+took 524.17 seconds

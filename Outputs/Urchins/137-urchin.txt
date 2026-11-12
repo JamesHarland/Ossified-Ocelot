@@ -1,0 +1,63 @@
+% going_steps: Final configuration is 1(10)^{5}(1)^{2}(10)^{5}(1)^{2}111110(1)^{4}1110(1)^{4}{a}(10)^{4}{r}(32)^{5091}3 Ones: 10218 Hops: 155634476 Steps: 100000
+% Otters: 0 Multilinear: 0 Unique Otters: 0 Otters Nested: 0 Otter Steps: 0 Otter Jumps: 0 Otter Proofs: [] Otter Diffs: [] Flat: 0  Ocelots: 0 Ocelot Steps: 0 Ocelot Proofs: 0 Shape: 1(10)*(1)^{2}(10)*(1)^{2}111110(1)*1110(1)*{a}(10)*{r}(32)*3 Shape Size: 56  MaxProgs: 0 MaxRegs: 0 
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> b 1 l Steps: 1
+% Trans: b 1 r -> a 2 l Steps: 1
+% Trans: a 0 r -> b 1 r Steps: 1
+% Trans: b 2 l -> a 3 l Steps: 1
+% Trans: a 1 r -> a 3 l Steps: 1
+% Trans: b 3 l -> a 1 r Steps: 1
+% Trans: a 3 l -> b 0 r Steps: 1
+% Trans: b 1 l -> a 2 l Steps: 1
+% Trans: b 33 l -> b 10 r Steps: 2
+% Trans: b 10 r -> a 21 l Steps: 2
+% Trans: a 10 r -> b 11 r Steps: 1
+% Trans: b 21 l -> a 31 l Steps: 1
+% Trans: a 1 l -> a 3 l Steps: 1
+% Trans: b 0 r -> b 1 l Steps: 1
+% Trans: a 2 l -> b 4 r Steps: 1
+% Trans: a 4 r -> a 2 l Steps: 1
+% Trans: a 01 r -> a 11 r Steps: 3
+% Trans: b 32 l -> b 14 r Steps: 2
+% Trans: a 14 r -> a 32 l Steps: 2
+% Trans: a 41 r -> a 23 l Steps: 2
+% Trans: a 23 l -> a 41 r Steps: 2
+% Trans: a 1101 r -> a 1111 r Steps: 3
+% Trans: a 110 r -> b 111 r Steps: 1
+% Trans: b 23 l -> a 33 l Steps: 1
+% Trans: a 32 l -> a 11 r Steps: 4
+% Trans: a 1011 r -> b 1110 r Steps: 5
+% Trans: a 1110 r -> b 1111 r Steps: 1
+% Trans: a 101011 r -> b 101110 r Steps: 5
+% Trans: a 101110 r -> b 101111 r Steps: 1
+% Trans: a 10101011 r -> b 10101110 r Steps: 5
+% Trans: a 10101110 r -> b 10101111 r Steps: 1
+% Trans: a 111010 r -> b 111011 r Steps: 1
+% Trans: a 111011 r -> b 111110 r Steps: 5
+% Trans: a 111110 r -> b 111111 r Steps: 1
+% Trans: a 1010101011 r -> b 1010101110 r Steps: 5
+% Trans: a 1010101110 r -> b 1010101111 r Steps: 1
+% Trans: a 10111010 r -> b 10111011 r Steps: 1
+% Trans: a 10111110 r -> b 10111111 r Steps: 1
+% Trans: a 1010101010111010 r -> b 1010101010111011 r Steps: 1
+% Trans: a 10101010101110 r -> b 10101010101111 r Steps: 1
+% Trans: a 11101011 r -> b 11101110 r Steps: 5
+% Trans: a 11111010 r -> b 11111011 r Steps: 1
+% Trans: a 11111011 r -> b 11111110 r Steps: 5
+% Trans: a 11111110 r -> b 11111111 r Steps: 1
+% Trans: a 10101010111010 r -> b 10101010111011 r Steps: 1
+% Trans: a 101010101011 r -> b 101010101110 r Steps: 5
+% Trans: a 101010101110 r -> b 101010101111 r Steps: 1
+% Trans: a 1010111010 r -> b 1010111011 r Steps: 1
+% Trans: a 1010111011 r -> b 1010111110 r Steps: 5
+% Trans: a 1010111110 r -> b 1010111111 r Steps: 1
+% Trans: a 101010111010 r -> b 101010111011 r Steps: 1
+% Trans: a 1011101011 r -> b 1011101110 r Steps: 5
+% Trans: a 1011101110 r -> b 1011101111 r Steps: 1
+% Trans: a 1011111010 r -> b 1011111011 r Steps: 1
+% Trans: a 1011111011 r -> b 1011111110 r Steps: 5
+% Trans: a 1011111110 r -> b 1011111111 r Steps: 1
+% No more transitions
+
+
+took 361.81 seconds

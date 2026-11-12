@@ -1,0 +1,50 @@
+% Regression (uni) 26:13{b}4{l}(2)^{5} -> +3:1(3)^{2}{b}4{l}(2)^{4} -> +3:1(3)^{3}{b}4{l}(2)^{3}
+% otter 1 proof attempt 1 ([]): 1(3)^{X1}{b}4{l}(2)^{Y1} -->> 1(3)^{X1+1}{b}4{l}(2)^{Y1-1} Progressors: 1, Regressors: 1
+1(3)^{X1}{b}4{l}(2)^{Y1} % Hops: 0 Ones: 2 Pos: 0 Transition: init 
+1(3)^{X1}2{a}(2)^{Y1}{l} % Hops: 1 Ones: 2 Pos: 1 Transition: complex(normal) 
+1(3)^{X1}{b}2{r}4(2)^{Y1-1} % Hops: 2 Ones: 3 Pos: 0 Transition: complex(normal) 
+1(3)^{X1+1}{b}4{l}(2)^{Y1-1} % Hops: 3 Ones: 2 Pos: 1 Transition: complex(normal) 
+% otter 1 verified (attempt 1) in 3 steps
+% Otter transition is Otter 1 (uni): (3)^{X1}{b}4{l}(2)^{Y1} ++> (3)^{X1+Y1}{b}4{l} Found: 26 Diffs: diffs([m(1,1),m(1,0)],m(1,0),[m(1,-1)]) Mins Xs: [0] Ys: [1] Mods [] in 3*Y1 steps movement 1*Y1 Trans: [t(a,2,4,l,b),t(b,2,3,r,b),t(b,4,2,r,a)]
+% Otter found -- checking whether to apply it to config([grp([3],1),grp([1],1)],b,grp([4],1),l,[grp([2],5)]) at 32 ... 
+% Otter applied to get to 41
+% going_steps: Final configuration is 2{b}0{l}20(40)^{5318}202(2)^{3}(40)^{96}(2)^{6}(40)^{8}202220(40)^{2}(2)^{3}02(2)^{7} Ones: 5452 Hops: 57022035 Steps: 100000
+% Otters: 1 Multilinear: 0 Unique Otters: 1 Otters Nested: 0 Otter Steps: 15 Otter Jumps: 15 Otter Proofs: [o(1,4)] Otter Diffs: [o(1,d(3,3))] Flat: 1  Ocelots: 5674 Ocelot Steps: 17061 Ocelot Proofs: 0 Shape: 2{b}0{l}20(40)*202(2)^{3}(40)*(2)*(40)*202220(40)^{2}(2)^{3}02(2)* Shape Size: 57  MaxProgs: 1 MaxRegs: 1 
+Applications Otter 1 times: 5674, steps: 17076
+% Trans: a 0 l -> b 1 r Steps: 1
+% Trans: b 0 l -> a 2 l Steps: 1
+% Trans: a 1 r -> b 2 r Steps: 1
+% Trans: b 2 l -> b 3 r Steps: 1
+% Trans: a 3 r -> b 2 l Steps: 1
+% Trans: b 2 r -> b 3 r Steps: 1
+% Trans: a 33 r -> a 02 l Steps: 2
+% Trans: b 0 r -> a 2 l Steps: 1
+% Trans: a 0 r -> b 1 r Steps: 1
+% Trans: b 02 l -> a 22 l Steps: 1
+% Trans: b 3 r -> a 0 l Steps: 1
+% Trans: a 2 r -> b 4 l Steps: 1
+% Trans: b 4 l -> a 2 r Steps: 1
+% Trans: a 2 l -> b 4 l Steps: 1
+% Trans: a 02 l -> b 13 r Steps: 2
+% Trans: a 13 r -> a 02 l Steps: 2
+% Trans: b 33 r -> b 20 l Steps: 2
+% Trans: a 20 l -> b 40 l Steps: 1
+% Trans: b 40 l -> b 21 r Steps: 2
+% Trans: b 1 r -> a 0 l Steps: 1
+% Trans: b 21 r -> b 40 l Steps: 2
+% Trans: a 21 r -> b 22 r Steps: 1
+% Trans: b 12 r -> b 13 r Steps: 1
+% Trans: b 13 r -> b 42 l Steps: 4
+% Trans: b 42 l -> a 32 r Steps: 4
+% Trans: b 32 r -> b 33 r Steps: 1
+% Trans: b 20 l -> b 22 l Steps: 3
+% Trans: b 04 l -> a 24 l Steps: 1
+% Trans: b 0222 l -> a 2222 l Steps: 1
+% Trans: a 32133 r -> a 33332 r Steps: 13
+% Trans: b 33332 r -> b 33333 r Steps: 1
+% No more transitions
+
+Otter 1 (uni): (3)^{X1}{b}4{l}(2)^{Y1} ++> (3)^{X1+Y1}{b}4{l} Found: 26 Diffs: diffs([m(1,1),m(1,0)],m(1,0),[m(1,-1)]) Mins Xs: [0] Ys: [1] Mods [] in 3*Y1 steps movement 1*Y1 Trans: [t(a,2,4,l,b),t(b,2,3,r,b),t(b,4,2,r,a)]
+
+First otter detected starting at 26
+took 344.30 seconds
